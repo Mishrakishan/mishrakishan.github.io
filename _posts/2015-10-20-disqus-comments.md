@@ -3,7 +3,7 @@ layout: post
 title: Love is a funny thing.
 date: 2025-01-07 03:44
 description:
-tags: writing
+tags: writing love
 canonical_url: https://www.instagram.com/p/B8i03oMHbXmnYHJ2eIyzGZyou4-MRJ7Rtmdjjs0/?igsh=ZXZzb2w4MnFvNnk=
 categories:
 disqus_comments: flase

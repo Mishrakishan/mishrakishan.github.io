@@ -3,7 +3,7 @@ layout: post
 title: A stage of internal war and peace
 date: 2015-06-11 05:30
 description: 
-tags: writing
+tags: writing life
 categories:
 ---
 
