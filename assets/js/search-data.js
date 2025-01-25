@@ -81,15 +81,15 @@ ninja.data = [{
           window.location.href = "/blog/2025/math/";
         
       },
-    },{id: "post-multilayer-dw-amp-skyrmion-based-spintronic-lif-neuron-model-amp-devices-for-neuromorphic-computing-kudos-growing-the-influence-of-research",
+    },{id: "post-404",
       
-        title: 'Multilayer DW &amp; Skyrmion-based Spintronic LIF Neuron Model &amp; Devices for Neuromorphic Computing... <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        title: '404 <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
       
-      description: "Neuromorphic computing, inspired by the structure and function of the human brain, offers groundbreaking potential for energy-efficient and adaptive computing systems. Unlike traditional computing models, neuromorphic systems operate through spiking neural networks (SNNs), which mimic the dynamic and parallel processing capabilities of biological neurons. These systems excel in real-time data processing, scalability, and robustness, making them ideal candidates for a wide range of applications including perception, image classification, pattern recognition, and machine learning. Traditional implementations of SNNs often rely on CMOS-based hardware, such as IBM&#39;s TrueNorth and Intel&#39;s Loihi chips, to simulate neural dynamics. However, these devices face significant limitations in terms of energy consumption, scalability, and speed.This study proposes spintronic based neuromorphic devices using domain walls and skyrmions in multilayer ferromagnetic structures to emulate leaky integrate-and-fire neurons. By combining spin–orbit torque, demagnetization energy modulation, and micromagnetic simulations, these devices achieve efficient spike latency, integration density and robust LIF behavior. Integrated into spiking neural networks, they achieve high-density computing, 98% accuracy on MNIST, and 95% on FMNIST, paving the way for scalable, energy-efficient neuromorphic hardware.",
+      description: "",
       section: "Posts",
       handler: () => {
         
-          window.open("https://www.growkudos.com/publications/10.1063%25252F5.0232395/reader", "_blank");
+          window.open("https://kishanmishra.bearblog.dev/blog/feed", "_blank");
         
       },
     },{id: "post-journey-uphill",
@@ -160,14 +160,6 @@ ninja.data = [{
       },
     },{id: "news-kudos-summary-available-of-the-recently-featured-article-magnetic-soliton-based-lif-neurons-for-spiking-neural-networks-snns-in-multilayer-spintronic-devices-published-on-aip-advances-titled-as-multilayer-dw-amp-amp-skyrmion-based-spintronic-lif-neuron-model-amp-amp-devices-for-neuromorphic-computing",
           title: 'Kudos summary available of the recently featured article Magnetic soliton-based LIF neurons for...',
-          description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
