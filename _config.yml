@@ -137,6 +137,10 @@ disqus_shortname: al-folio # put your disqus shortname
 external_sources:
   - name: medium.com
     rss_url: https://mishrakishan.medium.com/feed
+  - name: growkudos.com
+    posts:
+      - url: https://www.growkudos.com/publications/10.1063%25252F5.0232395/reader
+        published_date: 2024-12-12
 
 # -----------------------------------------------------------------------------
 # Newsletter
@@ -283,8 +287,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Mishra]
+  first_name: [Kishan, K.]
 
   style: apa
   locale: en
