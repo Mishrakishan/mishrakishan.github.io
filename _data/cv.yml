@@ -1,1 +1,115 @@
-description: To be updated soon..
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Kishan Kumar Mishra
+    - name: Date of Birth
+      value: 7th September 1997
+    - name: Languages
+      value: English, Hindi, Sanskrit
+
+- title: Education
+  type: time_table
+  contents:
+    - title: Master of Science (MSc) Physics
+      institution: Hindu College, University of Delhi, Delhi, India
+      year: Sep 2020 - Dec 2022
+      description:
+        - Theoretical Physisc 
+        - Quantum Field Theory & Condensed Matter Physics
+    - title: Bachelor of Science (BSc) Physics
+      institution: Hindu College, University of Delhi, Delhi, India
+      year: Sep 2015 - Nov 2018
+      description:
+        - Physics
+    - title: Special Course
+      institution: Hanoi University, Hanoi, Vietnam
+      year: Apr 2016 - Oct 2016
+      description:
+        - Government scholarships in nuclear power industry
+        - Japanese
+
+- title: Experience
+  type: time_table
+  contents:
+    - title: Research Assistant
+      institution: Visual Computing Lab, Seoul, South Korea
+      year: Sep 2022 - Dec 2024
+      description:
+        - title: Researcher
+          contents:
+            - Working on government project.
+            - Writing the paper.
+    - title: Software Engineer
+      institution: Bosch Global Software Technologies, Ho Chi Minh City, Vietnam
+      year: Apr 2021 - Jul 2022
+      description:
+        - title: Internship
+          contents:
+            - Understanding of software life cycle 
+            - Version source control
+            - Unit testing
+            - Self-developed tools
+        - title: Researcher
+          institution: IIT Mandi
+          contents:
+            - Micromagnetic Simulation, OOMMF, mumax3
+            - Simlation of Skyrmion, Domain Wall
+            - Atomic Simulations
+    - title: Research Assistant
+      institution: IIT Mandi 
+      year: Mar 2021 - Nov 2021
+      description:
+        - Theoretical understanding of skyrmion
+        - magnetic solitons
+    - title: Research Intern
+      institution: IIT Mandi
+      year: Jun 2021 - Feb 2022
+      description:
+        - Present development ideas
+        - Manage and assign tasks
+        - Check and report word translation results
+
+- title: Open Source Projects
+  type: time_table
+  contents:
+    - title: <a href="https://github.com/trandangtrungduc">Duc's Project</a>
+      year: 2020-now
+      description: interesting source code for AI and robotics.
+
+- title: Honors and Awards
+  type: time_table
+  contents:
+    - year: 2024
+      items:    
+        - Top 4 (mAP_50) and Top 3 (mAP_25) on the 3D Semantic Instance Benchmark (ScanNet Benchmark)
+    - year: 2017
+      items:    
+        - Tuition scholarship for business administration major at International Pacific University, Japan
+    - year: 2016
+      items:
+        - Vietnamese government scholarships in nuclear power industry
+    - year: 2015
+      items:
+        - The consolidation prize in physics (national contest)  
+
+- title: Academic Interests
+  type: nested_list
+  contents:
+    - title: Topological Solitons
+      items: 
+        - Domain Wall, Skyrmion, non-abelian Anyons
+        - Topolgical Quantum COmputing
+    - title: Spike Neural Networks (SNNs)
+      items:
+        - Spintronics
+        - Fine-tuning
+
+- title: Other Interests
+  type: list
+  contents:
+    - <u>Travel:</u> Germany, Swiss, Iceland, France, etc.
+    - <u>F&B:</u> Vietnamese Food, Cocktail, Craft-beer, etc.
+    - <u>Book:</u> History, Philosophy, Inspiring, Biography etc.
+    - <u>Music:</u> Bollywood Music, Instrumental Music, English Music, etc.
+    - <u>Film:</u>  Science Fiction, Documentary etc.
