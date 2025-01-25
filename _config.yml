@@ -139,7 +139,7 @@ external_sources:
     rss_url: https://medium.com/@Mishrakishan/feed
   - name: bearblog.dev
     posts:
-      - url: https://kishanmishra.bearblog.dev/blog/feed
+      - url: https://kishanmishra.bearblog.dev/blog
         published_date: 2024-12-12
 
 
