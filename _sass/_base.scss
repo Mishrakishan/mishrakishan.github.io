@@ -1342,3 +1342,9 @@ ninja-keys::part(ninja-input-wrapper) {
   background-color: var(--global-theme-color);
   color: var(--global-text-color);
 }
+
+.grey-line {
+  border: none;
+  border-top: 1px solid lightgray;  /* You can adjust the color and thickness */
+  margin: 20px 0;  /* Adjust the spacing around the line */
+}

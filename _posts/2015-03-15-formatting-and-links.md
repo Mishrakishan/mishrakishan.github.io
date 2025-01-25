@@ -1,36 +1,45 @@
 ---
 layout: post
-title: a post with formatting and links
-date: 2015-03-15 16:40:16
-description: march & april, looking forward to summer
-tags: formatting links
-categories: sample-posts
+title: A stage of internal war and peace
+date: 2015-06-11 05:30
+description: 
+tags: writing
+categories:
 ---
 
-Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. [Pinterest](https://www.pinterest.com) DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.
+This is an old piece 16 years-old-me wrote while interning at IIT Mandi.
 
-#### Hipster list
+It was 2:34 AM, I sat cross-legged near the window gazing into the distance, 
+this time it was the electricity that was long gone, darkness encapsulated an overly large room of this hostel I was trapped in and mind on loud like a wave hitting shores every second,
 
-- brunch
-- fixie
-- raybans
-- messenger bag
+It was dark as far as I could see outside, moon and mountains but clouded and covered,
 
-#### Check List
+Sudden I heard the pitter-patter sound from the roof, I guessed it was raining.
 
-- [x] Brush Teeth
-- [ ] Put on socks
-  - [x] Put on left sock
-  - [ ] Put on right sock
-- [x] Go to school
+I placed my face over the net of the window, it was cold, 
+a delicate gush of wind touched my skin,
 
-Hoodie Thundercats retro, tote bag 8-bit Godard craft beer gastropub. Truffaut Tumblr taxidermy, raw denim Kickstarter sartorial dreamcatcher. Quinoa chambray slow-carb salvia readymade, bicycle rights 90's yr typewriter selfies letterpress cardigan vegan.
+I could feel the rain gently caressing my face slowly and slowly, although it was pushing my hairs away.
 
-<hr>
+An 'inexplicable' scent of drenched earth made me smile and sway, 
 
-Pug heirloom High Life vinyl swag, single-origin coffee four dollar toast taxidermy reprehenderit fap distillery master cleanse locavore. Est anim sapiente leggings Brooklyn ea. Thundercats locavore excepteur veniam eiusmod. Raw denim Truffaut Schlitz, migas sapiente Portland VHS twee Bushwick Marfa typewriter retro id keytar.
+This smell, air, darkness, sound, rain, it was home to a hoard of the memories black and white and I reminisced the old-time,
+
+How I used to go against mum’s order and rush into the rain to get out drenched and soak every falling drop right into my skin,
+
+falling asleep in mum’s lap while listening to fairytales, lullabies;
+
+God! How amazingly beautiful this was.
+
+This time again, I wanted to go out wet in rain, I wanted to recall everything little damn things that could put a smile on my face but I was afraid if I get cold or sick, nobody would be here to advise me to take a short nap. 
+It's again long gone with the electricity.
+
+Isn’t it a bit sad that as you grow older you have to let go of a few things you ever had gripped tight just to end up crashing into the bottom low, perhaps it is this cycle of keep going and going and going for the greater good? 
+honestly? don't know. But it feels good and natural to go with the flow and not being stagnant.
+
+Now when it rains I remember home with a sigh. I pick guitar or violin and bruise my finger against the string to fill love in the air, muffling the dissonance outside and chaos within, I play with the strings to bring all those long-gone things possibly back to life, I make a home in music and it never felt so alone.
+
+It is 4:53 AM. All of sudden, the electricity brightens up my room and a phone call from home. :)
 
 > We do not grow absolutely, chronologically. We grow sometimes in one dimension, and not in another, unevenly. We grow partially. We are relative. We are mature in one realm, childish in another.
-> —Anais Nin
-
-Fap aliqua qui, scenester pug Echo Park polaroid irony shabby chic ex cardigan church-key Odd Future accusamus. Blog stumptown sartorial squid, gastropub duis aesthetic Truffaut vero. Pinterest tilde twee, odio mumblecore jean shorts lumbersexual.
+> — Anais Nin
