@@ -7,7 +7,7 @@ first_name: Kishan
 middle_name:
 last_name: Mishra
 contact_note: >
-  You can get in touch with me via **[Letterbird](https://letterbird.co/mishraakishan)** or my **[Guestbook](https://users.smartgb.com/g/g.php?a=s&i=g19-01884-c8)**.
+  You can get in touch with me via [Letterbird](https://letterbird.co/mishraakishan) or my [Guestbook](https://users.smartgb.com/g/g.php?a=s&i=g19-01884-c8).
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
@@ -136,12 +136,13 @@ disqus_shortname: al-folio # put your disqus shortname
 # you can display them in your blog by adding a link to the RSS feed.
 external_sources:
   - name: medium.com
-    rss_url: https://mishrakishan.medium.com/feed
-  - name: growkudos.com
+    rss_url: https://medium.com/@Mishrakishan/feed
+  - name: bearblog.dev/
     posts:
-      - url: https://www.growkudos.com/publications/10.1063%25252F5.0232395/reader
+      - url: https://kishanmishra.bearblog.dev/blog/feed
         published_date: 2024-12-12
 
+        
 # -----------------------------------------------------------------------------
 # Newsletter
 # -----------------------------------------------------------------------------
@@ -288,7 +289,7 @@ display_categories: ["external-services"] # these categories will be displayed o
 
 scholar:
   last_name: [Mishra]
-  first_name: [Kishan, K.]
+  first_name: [Kishan, K]
 
   style: apa
   locale: en
