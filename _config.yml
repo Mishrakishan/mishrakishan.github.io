@@ -7,7 +7,7 @@ first_name: Kishan
 middle_name:
 last_name: Mishra
 contact_note: >
-  You can get in touch with me via [Letterbird](https://letterbird.co/mishraakishan) or my [Guestbook](https://users.smartgb.com/g/g.php?a=s&i=g19-01884-c8).
+  My mandates also include weird bugs.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
@@ -137,10 +137,9 @@ disqus_shortname: al-folio # put your disqus shortname
 external_sources:
   - name: medium.com
     rss_url: https://medium.com/@Mishrakishan/feed
-  - name: bearblog.dev/
-    posts:
-      - url: https://kishanmishra.bearblog.dev/blog/feed
-        published_date: 2024-12-12
+  - name: bearblog.dev
+    rss_url: https://kishanmishra.bearblog.dev/blog/feed
+
 
         
 # -----------------------------------------------------------------------------
@@ -162,14 +161,10 @@ collections:
       layout: post
     output: true
     permalink: /:collection/:title/
-  projects:
-    output: true
-    permalink: /:collection/:title/
-
 announcements:
   enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  scrollable: true
+  limit: 3
 
 latest_posts:
   enabled: true
@@ -289,7 +284,7 @@ display_categories: ["external-services"] # these categories will be displayed o
 
 scholar:
   last_name: [Mishra]
-  first_name: [Kishan, K]
+  first_name: [Kishan, K.]
 
   style: apa
   locale: en
