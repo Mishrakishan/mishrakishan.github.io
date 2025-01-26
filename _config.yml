@@ -13,7 +13,7 @@ description: > # the ">" symbol means to ignore newlines until "footer_text:"
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
+keywords: Mishrakishan, academic-website, portfolio-website # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ☕ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
@@ -53,17 +53,6 @@ search_enabled: true
 socials_in_search: true
 bib_search: true
 
-navbar:
-  - title: "About"
-    url: "/"
-  - title: "Blog"
-    url: "/blog"
-  - title: "Publications"
-    url: "/publications"
-  - title: "Internet World"
-    url: "/teaching"
-  - title: "Vitae"
-    url: "/cv"
 
 # Dimensions
 max_width: 930px
@@ -127,7 +116,7 @@ giscus:
   lang: en
 
 # Disqus comments (DEPRECATED)
-disqus_shortname: al-folio # put your disqus shortname
+disqus_shortname: # put your disqus shortname
 # https://help.disqus.com/en/articles/1717111-what-s-a-shortname
 
 # External sources.
@@ -144,8 +133,6 @@ external_sources:
     posts:
       - url: https://www.growkudos.com/publications/10.1063%25252F5.0232395/reader
         published_date: 2024-12-12
-  - name: 
-    rss_url: 
         #published_date: 2024-12-12
 
 
@@ -296,7 +283,7 @@ display_categories: ["external-services"] # these categories will be displayed o
 
 scholar:
   last_name: [Mishra]
-  first_name: [Kishan, K.]
+  first_name: [Kishan]
 
   style: apa
   locale: en
