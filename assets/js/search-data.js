@@ -103,15 +103,37 @@ ninja.data = [{
           window.location.href = "/blog/2024/code/";
         
       },
-    },{id: "post-blog-imagine-sisyphus-happy",
+    },{id: "post-on-writing-regularly",
       
-        title: 'Blog | Imagine Sisyphus Happy ☕ <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        title: 'On writing regularly <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
       
-      description: "jack of all trades, master of one.",
+      description: "Thoughts on regularly writing in public",
       section: "Posts",
       handler: () => {
         
-          window.open("https://kishanmishra.bearblog.dev/blog", "_blank");
+          window.open("https://herman.bearblog.dev/on-writing-regularly/", "_blank");
+        
+      },
+    },{id: "post-on-running-a-blogging-platform",
+      
+        title: 'On running a blogging platform <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+      
+      description: "My experience of running a minimal blogging platform for the past few years.",
+      section: "Posts",
+      handler: () => {
+        
+          window.open("https://herman.bearblog.dev/running-a-blogging-platform/", "_blank");
+        
+      },
+    },{id: "post-the-dragon-that-ate-the-sun",
+      
+        title: 'The dragon that ate the sun <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+      
+      description: "The ancients said that it would be a dragon that ate the sun, throwing all the worlds into eternal darkness.",
+      section: "Posts",
+      handler: () => {
+        
+          window.open("https://herman.bearblog.dev/the-dragon-that-ate-the-sun/", "_blank");
         
       },
     },{id: "post-journey-uphill",
@@ -136,6 +158,17 @@ ninja.data = [{
           window.open("https://mishrakishan.medium.com/darwin-day-ad5c5170b419?source=rss-b79f6dd5dd45------2", "_blank");
         
       },
+    },{id: "post-my-product-is-my-garden",
+      
+        title: 'My product is my garden <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.open("https://herman.bearblog.dev/my-product-is-my-garden/", "_blank");
+        
+      },
     },{id: "post-independence-defence-and-resistance",
       
         title: '“Independence, Defence and Resistance” <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
@@ -145,6 +178,28 @@ ninja.data = [{
       handler: () => {
         
           window.open("https://mishrakishan.medium.com/independence-defence-and-resistance-5c315056a072?source=rss-b79f6dd5dd45------2", "_blank");
+        
+      },
+    },{id: "post-life-is-movement",
+      
+        title: 'Life is movement <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.open("https://herman.bearblog.dev/life-is-movement/", "_blank");
+        
+      },
+    },{id: "post-the-gods-of-toil",
+      
+        title: 'The Gods of Toil <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+      
+      description: "A short story on hardship and growth.",
+      section: "Posts",
+      handler: () => {
+        
+          window.open("https://herman.bearblog.dev/the-gods-of-toil/", "_blank");
         
       },
     },{id: "post-who-to-compare-yourself-with",
