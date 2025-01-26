@@ -87,7 +87,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: imagine sisyphus happy ᕕ( ᐛ )ᕗ # blog_name will be displayed in your blog page
+blog_name: imagine sisyphus happy # blog_name will be displayed in your blog page
 blog_description: When you meet a swordsman, draw your sword. Do not recite poetry to one who is not a poet.
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
