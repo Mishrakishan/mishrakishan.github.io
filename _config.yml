@@ -125,21 +125,25 @@ disqus_shortname: # put your disqus shortname
 external_sources:
   - name: medium.com
     rss_url: https://medium.com/@Mishrakishan/feed
-  - name: bearblog.dev
+  - name: bearblog.dev (Writing)
     rss_url: http://kishanmishra.bearblog.dev/feed?q=writing
-  - name: bearblog.dev
+  - name: bearblog.dev (Misc)
     posts:
       - url: https://froggy.bearblog.dev/writing/
+        published_date: 2025-01-09
       - url: https://blog.avas.space/rto/
+        published_date: 2025-01-08
       - url: https://zypper.net/why-i-write/#fnref-1
+        published_date: 2025-01-07
       - url: https://zypper.net/how-i-deal-with-information-overload/
+        published_date: 2025-01-06
       - url: https://maggieappleton.com/garden-history
-      published_date: 2025-01-09
+        published_date: 2025-01-05
   - name: Kudos
     posts:
       - url: https://www.growkudos.com/publications/10.1063%25252F5.0232395/reader
         published_date: 2024-12-12
-        #published_date: 2024-12-12
+
 
 
         
