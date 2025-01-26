@@ -10,7 +10,7 @@
   url: https://pubs.aip.org/aip/apr
   color: "#017C7F"
 
-"IEEE TAM":
+"IEEE-TAM":
   url: https://ieeemagnetics.org/publication/ieee-transactions-magnetics
   color: "#14303E"
 
@@ -18,22 +18,7 @@
   url: https://pubs.aip.org/aip/adv
   color: "#0C1C43"
 
-"arXiva":
+"arXiv":
   url: https://arxiv.org/
   color: "#14303E"
 
-"ICMI":
-  url: https://icmi.acm.org
-  color: "#672B83"
-
-"EUSIPCO":
-  url: https://eurasip.org/eusipco-conferences/
-  color: "#37406B"
-
-"LREC":
-  url: https://aclanthology.org/venues/lrec/
-  color: "#81026E"
-
-"CVPRW":
-  url: https://cvpr.thecvf.com/
-  color: "#1C427D"
