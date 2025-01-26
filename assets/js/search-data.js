@@ -59,6 +59,17 @@ ninja.data = [{
           window.location.href = "/blog/2025/distill/";
         
       },
+    },{id: "post-still-vulnerable-at-25",
+      
+        title: 'Still Vulnerable at 25. <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+      
+      description: "Chair of Solitude",
+      section: "Posts",
+      handler: () => {
+        
+          window.open("https://kishanmishra.bearblog.dev/kishan-writes-about-camus/", "_blank");
+        
+      },
     },{id: "post-love-is-a-funny-thing",
       
         title: "Love is a funny thing.",
@@ -70,6 +81,28 @@ ninja.data = [{
           window.location.href = "/blog/2025/disqus-comments/";
         
       },
+    },{id: "post-love-is-a-funny-thing",
+      
+        title: 'Love is a funny thing. <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.open("https://kishanmishra.bearblog.dev/love-is-funny-thing/", "_blank");
+        
+      },
+    },{id: "post-darwin-day",
+      
+        title: '‘Darwin’ Day <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.open("https://kishanmishra.bearblog.dev/darwin-day/", "_blank");
+        
+      },
     },{id: "post-human-cycle-of-civilization-and-destruction",
       
         title: "Human cycle of civilization and destruction",
@@ -79,6 +112,28 @@ ninja.data = [{
       handler: () => {
         
           window.location.href = "/blog/2025/math/";
+        
+      },
+    },{id: "post-human-cycle-of-civilization-and-destruction",
+      
+        title: 'Human cycle of civilization and destruction <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.open("https://kishanmishra.bearblog.dev/posts/", "_blank");
+        
+      },
+    },{id: "post-why-britain-is-broke",
+      
+        title: 'Why Britain is Broke <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+      
+      description: "why Britain is broke",
+      section: "Posts",
+      handler: () => {
+        
+          window.open("https://kishanmishra.bearblog.dev/why-britain-is-broke/", "_blank");
         
       },
     },{id: "post-multilayer-dw-amp-skyrmion-based-spintronic-lif-neuron-model-amp-devices-for-neuromorphic-computing-kudos-growing-the-influence-of-research",
@@ -103,37 +158,15 @@ ninja.data = [{
           window.location.href = "/blog/2024/code/";
         
       },
-    },{id: "post-on-writing-regularly",
+    },{id: "post-journey-uphill",
       
-        title: 'On writing regularly <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        title: 'Journey Uphill <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
       
-      description: "Thoughts on regularly writing in public",
+      description: "",
       section: "Posts",
       handler: () => {
         
-          window.open("https://herman.bearblog.dev/on-writing-regularly/", "_blank");
-        
-      },
-    },{id: "post-on-running-a-blogging-platform",
-      
-        title: 'On running a blogging platform <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-      
-      description: "My experience of running a minimal blogging platform for the past few years.",
-      section: "Posts",
-      handler: () => {
-        
-          window.open("https://herman.bearblog.dev/running-a-blogging-platform/", "_blank");
-        
-      },
-    },{id: "post-the-dragon-that-ate-the-sun",
-      
-        title: 'The dragon that ate the sun <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-      
-      description: "The ancients said that it would be a dragon that ate the sun, throwing all the worlds into eternal darkness.",
-      section: "Posts",
-      handler: () => {
-        
-          window.open("https://herman.bearblog.dev/the-dragon-that-ate-the-sun/", "_blank");
+          window.open("https://kishanmishra.bearblog.dev/journey-uphill/", "_blank");
         
       },
     },{id: "post-journey-uphill",
@@ -158,17 +191,6 @@ ninja.data = [{
           window.open("https://mishrakishan.medium.com/darwin-day-ad5c5170b419?source=rss-b79f6dd5dd45------2", "_blank");
         
       },
-    },{id: "post-my-product-is-my-garden",
-      
-        title: 'My product is my garden <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-      
-      description: "",
-      section: "Posts",
-      handler: () => {
-        
-          window.open("https://herman.bearblog.dev/my-product-is-my-garden/", "_blank");
-        
-      },
     },{id: "post-independence-defence-and-resistance",
       
         title: '“Independence, Defence and Resistance” <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
@@ -178,28 +200,6 @@ ninja.data = [{
       handler: () => {
         
           window.open("https://mishrakishan.medium.com/independence-defence-and-resistance-5c315056a072?source=rss-b79f6dd5dd45------2", "_blank");
-        
-      },
-    },{id: "post-life-is-movement",
-      
-        title: 'Life is movement <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-      
-      description: "",
-      section: "Posts",
-      handler: () => {
-        
-          window.open("https://herman.bearblog.dev/life-is-movement/", "_blank");
-        
-      },
-    },{id: "post-the-gods-of-toil",
-      
-        title: 'The Gods of Toil <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-      
-      description: "A short story on hardship and growth.",
-      section: "Posts",
-      handler: () => {
-        
-          window.open("https://herman.bearblog.dev/the-gods-of-toil/", "_blank");
         
       },
     },{id: "post-who-to-compare-yourself-with",
@@ -213,6 +213,17 @@ ninja.data = [{
           window.location.href = "/blog/2016/images/";
         
       },
+    },{id: "post-who-to-compare-yourself-with",
+      
+        title: 'Who to compare yourself with <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.open("https://kishanmishra.bearblog.dev/who-to-compare-yourself-with/", "_blank");
+        
+      },
     },{id: "post-a-stage-of-internal-war-and-peace",
       
         title: "A stage of internal war and peace",
@@ -222,6 +233,17 @@ ninja.data = [{
       handler: () => {
         
           window.location.href = "/blog/2015/formatting-and-links/";
+        
+      },
+    },{id: "post-a-stage-of-internal-war-and-peace",
+      
+        title: 'A stage of internal war and peace <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.open("https://kishanmishra.bearblog.dev/writing/", "_blank");
         
       },
     },{id: "news-kudos-summary-available-of-the-recently-featured-article-magnetic-soliton-based-lif-neurons-for-spiking-neural-networks-snns-in-multilayer-spintronic-devices-published-on-aip-advances-titled-as-multilayer-dw-amp-amp-skyrmion-based-spintronic-lif-neuron-model-amp-amp-devices-for-neuromorphic-computing",
