@@ -47,7 +47,10 @@ nav_order: 3
 2. [Write Faster](https://sashachapin.substack.com/p/write-faster-130) (**Sasha Chapin**)  
 3. [55 Essential Strategies for Every Writer](https://ayomenulisfisip.files.wordpress.com/2020/08/roy-peter-clark-writing-tools_-55-essential-strategies-for-every-writer-little-brown-and-company-2008.pdf) (**Roy Peter Clark**)  
 4. [Do You Have Any Writing Advice?](https://medium.com/@visakanv/do-you-have-any-writing-advice-60b9220eb47f) (**Visakan Veerasamy**)
-
+5. [you-should-write-blogs](https://sites.google.com/site/steveyegge2/you-should-write-blogs) (**Steve Yegge**)
+6. [why you should write more](https://www.avabear.xyz/p/why-you-should-write-more) (**Ava**)
+7. [Writing,  Briefly](https://paulgraham.com/writing44.html) (**Paul Graham**)
+8. [Some thoughts on writing](https://danluu.com/writing-non-advice/) (**Dan Luu**)
 ### Miscellaneous
 
 1. [The Review of 2024 Nobel Prize](https://jabde.com/wp-content/uploads/2024/10/Nobel-Prize-Recap-2024.pdf) (The Journal of Immaterial Science)
