@@ -126,9 +126,7 @@ external_sources:
   - name: medium.com
     rss_url: https://medium.com/@Mishrakishan/feed
   - name: bearblog.dev
-    posts:
-      - url: https://kishanmishra.bearblog.dev/blog
-        published_date: 2024-05-14  
+    rss_url: http://herman.bearblog.dev/feed?q=writing
   - name: Kudos
     posts:
       - url: https://www.growkudos.com/publications/10.1063%25252F5.0232395/reader
