@@ -70,6 +70,28 @@ ninja.data = [{
           window.open("https://kishanmishra.bearblog.dev/kishan-writes-about-camus/", "_blank");
         
       },
+    },{id: "post-writing-thrusts-me-into-uncharted-territory-froggy",
+      
+        title: 'writing thrusts me into uncharted territory | froggy 🍃 <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+      
+      description: "there&#39;s lots of discourse on writing in the Bear Den (lol). the purposes of writing, who you should write for, why you should write, etc. All great discussio...",
+      section: "Posts",
+      handler: () => {
+        
+          window.open("https://froggy.bearblog.dev/writing/", "_blank");
+        
+      },
+    },{id: "post-the-return-to-office-lies-ava-39-s-blog",
+      
+        title: 'the ‘return to office’ lies | ava&#39;s blog <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+      
+      description: "i vent about return to office bullshittery.",
+      section: "Posts",
+      handler: () => {
+        
+          window.open("https://blog.avas.space/rto/", "_blank");
+        
+      },
     },{id: "post-love-is-a-funny-thing",
       
         title: "Love is a funny thing.",
@@ -81,6 +103,17 @@ ninja.data = [{
           window.location.href = "/blog/2025/disqus-comments/";
         
       },
+    },{id: "post-why-i-write-ʕ-ᴥ-ʔ-zypper",
+      
+        title: 'Why I Write | ʕ•ᴥ•ʔ zypper <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+      
+      description: "Inspired by Robert Birming’s “Why write“, I thought I would write my own spin-off and say why I do it.",
+      section: "Posts",
+      handler: () => {
+        
+          window.open("https://zypper.net/why-i-write/#fnref-1", "_blank");
+        
+      },
     },{id: "post-love-is-a-funny-thing",
       
         title: 'Love is a funny thing. <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
@@ -90,6 +123,28 @@ ninja.data = [{
       handler: () => {
         
           window.open("https://kishanmishra.bearblog.dev/love-is-funny-thing/", "_blank");
+        
+      },
+    },{id: "post-how-i-deal-with-information-overload-ʕ-ᴥ-ʔ-zypper",
+      
+        title: 'How I Deal with Information Overload | ʕ•ᴥ•ʔ zypper <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+      
+      description: "I have developed a system for myself to remedy the large influx of information. Tying it all together is my note taking app that hosts my original thoughts.",
+      section: "Posts",
+      handler: () => {
+        
+          window.open("https://zypper.net/how-i-deal-with-information-overload/", "_blank");
+        
+      },
+    },{id: "post-a-brief-history-amp-ethos-of-the-digital-garden",
+      
+        title: 'A Brief History &amp; Ethos of the Digital Garden <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+      
+      description: "A newly revived philosophy for publishing personal knowledge on the web",
+      section: "Posts",
+      handler: () => {
+        
+          window.open("https://maggieappleton.com/garden-history", "_blank");
         
       },
     },{id: "post-darwin-day",
