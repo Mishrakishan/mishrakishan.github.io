@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-still-vulnerable-at-25",
+        },{id: "post-quantum-mechanics-101-demystifying-its-postulates",
+      
+        title: "Quantum Mechanics 101: Demystifying Its Postulates",
+      
+      description: "An introductory look at the core principles of quantum mechanics.",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/QuantumMech/";
+        
+      },
+    },{id: "post-still-vulnerable-at-25",
       
         title: "Still Vulnerable at 25",
       
