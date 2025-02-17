@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Quantum Mechanics 101: Demystifying Its Postulates"
+title: 'Quantum Mechanics 101: Demystifying Its Postulates'
 date: 2025-02-17 05:30
 description: "An introductory look at the core principles of quantum mechanics."
 tags: 
