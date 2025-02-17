@@ -105,7 +105,7 @@ ninja.data = [{
       },
     },{id: "post-why-i-write-ʕ-ᴥ-ʔ-zypper",
       
-        title: 'Why I Write | ʕ•ᴥ•ʔ zypper <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        title: 'why i write | ʕ•ᴥ•ʔ zypper <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
       
       description: "Inspired by Robert Birming’s “Why write“, I thought I would write my own spin-off and say why I do it.",
       section: "Posts",
@@ -127,7 +127,7 @@ ninja.data = [{
       },
     },{id: "post-how-i-deal-with-information-overload-ʕ-ᴥ-ʔ-zypper",
       
-        title: 'How I Deal with Information Overload | ʕ•ᴥ•ʔ zypper <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        title: 'how i deal with information overload | ʕ•ᴥ•ʔ zypper <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
       
       description: "I have developed a system for myself to remedy the large influx of information. Tying it all together is my note taking app that hosts my original thoughts.",
       section: "Posts",
