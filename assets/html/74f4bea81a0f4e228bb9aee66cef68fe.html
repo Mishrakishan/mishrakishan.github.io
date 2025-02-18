@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>ea455bcdb279420bb8be80993fdd7d99</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div class="cell code" data-execution_count="81" id="emsBLYDNgvF3">
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>pip install qiskit ipywidgets <span class="op">-</span>q</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="83" id="oIkYMrAFg-Yv">
+<div class="sourceCode" id="cb2"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>pip install pylatexenc <span class="op">-</span>q</span></code></pre></div>
+</div>
+<div class="cell markdown" id="Y_It1GBGhNQG">
+<p>##Imports</p>
+</div>
+<div class="cell code" data-execution_count="84" id="BJJpBa89hCQr">
+<div class="sourceCode" id="cb3"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> qiskit <span class="im">import</span> QuantumRegister, ClassicalRegister, QuantumCircuit</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> qiskit.visualization <span class="im">import</span> plot_histogram</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> qiskit.visualization <span class="im">import</span> plot_histogram</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> qiskit.quantum_info <span class="im">import</span> DensityMatrix</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> qiskit.visualization <span class="im">import</span> plot_state_city</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> qiskit.visualization <span class="im">import</span> plot_state_qsphere</span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> qiskit.quantum_info <span class="im">import</span> Statevector</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> numpy <span class="im">import</span> pi</span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span></code></pre></div>
+</div>
+<div class="cell markdown" id="4eZjbf2RlKsU">
+<p>#State <span class="math inline">|0⟩</span>:</p>
+</div>
+<div class="cell code" data-execution_count="85" id="GQfggrCqjdCT">
+<div class="sourceCode" id="cb4"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> qiskit <span class="im">import</span> QuantumRegister, ClassicalRegister, QuantumCircuit</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> numpy <span class="im">import</span> pi</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>qreg_q <span class="op">=</span> QuantumRegister(<span class="dv">1</span>, <span class="st">&#39;q&#39;</span>)</span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>circuit <span class="op">=</span> QuantumCircuit(qreg_q)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="86" id="dSi52bJooF2F">
+<div class="sourceCode" id="cb5"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>psi <span class="op">=</span> Statevector(circuit)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="87"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:423}"
+id="6LRwRB0gn6DX" data-outputId="3da1143e-db57-49b1-9017-7889f07af560">
+<div class="sourceCode" id="cb6"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>plot_bloch_multivector(psi)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="87">
+<p><img
+src="vertopal_74f4bea81a0f4e228bb9aee66cef68fe/a2653e86c0a9879c59bb8f4b1cb5ee74df8aa07f.png" /></p>
+</div>
+</div>
+<div class="cell code" data-execution_count="93"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="hxhgfVXZi_WZ" data-outputId="8c0deeff-3d40-4546-b371-a7d370218fb4">
+<div class="sourceCode" id="cb7"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> qiskit <span class="im">import</span> QuantumRegister, ClassicalRegister, QuantumCircuit</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> numpy <span class="im">import</span> pi</span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>qreg_q <span class="op">=</span> QuantumRegister(<span class="dv">1</span>, <span class="st">&#39;q&#39;</span>)</span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>creg_c <span class="op">=</span> ClassicalRegister(<span class="dv">1</span>, <span class="st">&#39;c&#39;</span>)</span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a>circuit <span class="op">=</span> QuantumCircuit(qreg_q, creg_c)</span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a>circuit.measure(qreg_q[<span class="dv">0</span>], creg_c[<span class="dv">0</span>])</span></code></pre></div>
+<div class="output execute_result" data-execution_count="93">
+<pre><code>&lt;qiskit.circuit.instructionset.InstructionSet at 0x7b24fcb866b0&gt;</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="88"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:127}"
+id="YRedS3IOjgEG" data-outputId="4e0472d5-d102-453f-b074-f46313bd4a21">
+<div class="sourceCode" id="cb9"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>circuit.draw(output <span class="op">=</span> <span class="st">&quot;mpl&quot;</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="88">
+<p><img
+src="vertopal_74f4bea81a0f4e228bb9aee66cef68fe/d8521f7b29f83693ace4010cfee144f47429bcad.png" /></p>
+</div>
+</div>
+<div class="cell code" data-execution_count="89"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:58}"
+id="TAU202dyjsum" data-outputId="388d3d03-8a78-46a7-d723-be1cef71c269">
+<div class="sourceCode" id="cb10"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>DensityMatrix(psi).draw(<span class="st">&quot;latex&quot;</span>)  <span class="co"># convert to a DensityMatrix and draw</span></span></code></pre></div>
+<div class="output execute_result" data-execution_count="89">
+<pre><code>&lt;IPython.core.display.Latex object&gt;</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="90"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:423}"
+id="p37BsEYxkA1P" data-outputId="3968152d-3b6d-49ab-f586-fb458aca38a7">
+<div class="sourceCode" id="cb12"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>psi <span class="op">=</span> Statevector(circuit)</span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>plot_bloch_multivector(psi)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="90">
+<p><img
+src="vertopal_74f4bea81a0f4e228bb9aee66cef68fe/a2653e86c0a9879c59bb8f4b1cb5ee74df8aa07f.png" /></p>
+</div>
+</div>
+<div class="cell code" data-execution_count="91"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:675}"
+id="jINzWMeujgfx" data-outputId="f4e53c3c-30c1-41eb-c2f8-92fdc0b41783">
+<div class="sourceCode" id="cb13"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>plot_state_city(psi)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="91">
+<p><img
+src="vertopal_74f4bea81a0f4e228bb9aee66cef68fe/f3898c97e9290568445658806da068cebbaea9f1.png" /></p>
+</div>
+</div>
+<div class="cell code" data-execution_count="92"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:576}"
+id="lkuGORJZk_ul" data-outputId="320d97a7-68ee-4c23-cff9-375aa5ce5359">
+<div class="sourceCode" id="cb14"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>plot_state_qsphere(psi)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="92">
+<p><img
+src="vertopal_74f4bea81a0f4e228bb9aee66cef68fe/3f47e08208c863c44c3981737fce565b2b5c403f.png" /></p>
+</div>
+</div>
+<div class="cell markdown" id="caSM9rOSlB0i">
+<p>#State <span class="math inline">|1⟩</span>:</p>
+</div>
+<div class="cell code" data-execution_count="94"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="E32ms-HahQ6F" data-outputId="cae753a9-28a3-4db5-d7d5-902fbb1e273a">
+<div class="sourceCode" id="cb15"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>qreg_q <span class="op">=</span> QuantumRegister(<span class="dv">1</span>, <span class="st">&#39;q&#39;</span>)</span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>creg_c <span class="op">=</span> ClassicalRegister(<span class="dv">1</span>, <span class="st">&#39;c&#39;</span>)</span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a>circuit <span class="op">=</span> QuantumCircuit(qreg_q, creg_c)</span>
+<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a>circuit.x(qreg_q[<span class="dv">0</span>])</span>
+<span id="cb15-6"><a href="#cb15-6" aria-hidden="true" tabindex="-1"></a><span class="co">#circuit.measure(qreg_q[0], creg_c[0])</span></span></code></pre></div>
+<div class="output execute_result" data-execution_count="94">
+<pre><code>&lt;qiskit.circuit.instructionset.InstructionSet at 0x7b24fcb86380&gt;</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="95"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:191}"
+id="YVDJ2TqMhrSl" data-outputId="cb16ed11-981b-4780-9026-097468f962a5">
+<div class="sourceCode" id="cb17"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a>circuit.draw(output <span class="op">=</span> <span class="st">&quot;mpl&quot;</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="95">
+<p><img
+src="vertopal_74f4bea81a0f4e228bb9aee66cef68fe/dc6626ad1c76a64913eca2545475c7e8b22f1cf9.png" /></p>
+</div>
+</div>
+<div class="cell code" data-execution_count="96" id="tAZCDdgBh3qf">
+<div class="sourceCode" id="cb18"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>psi <span class="op">=</span> Statevector(circuit)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="97"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:423}"
+id="x3pXxUsoiDZU" data-outputId="442b55f1-17dd-442a-a3b7-1d483937bbae">
+<div class="sourceCode" id="cb19"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> qiskit.visualization <span class="im">import</span> plot_bloch_multivector</span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a>plot_bloch_multivector(psi)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="97">
+<p><img
+src="vertopal_74f4bea81a0f4e228bb9aee66cef68fe/f2ed37f38d85538c38968e15adb8e4f7d7d49fcc.png" /></p>
+</div>
+</div>
+<div class="cell code" data-execution_count="98"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:58}"
+id="fv2zUSP-iHCr" data-outputId="93654235-3513-4ed0-f479-3fa474857352">
+<div class="sourceCode" id="cb20"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> qiskit.quantum_info <span class="im">import</span> DensityMatrix</span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a>DensityMatrix(psi).draw(<span class="st">&quot;latex&quot;</span>)  <span class="co"># convert to a DensityMatrix and draw</span></span></code></pre></div>
+<div class="output execute_result" data-execution_count="98">
+<pre><code>&lt;IPython.core.display.Latex object&gt;</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="99"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:675}"
+id="8ZRA1jHriJqI" data-outputId="7db66df8-4975-4ccf-eaba-3f07290a5a78">
+<div class="sourceCode" id="cb22"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> qiskit.visualization <span class="im">import</span> plot_state_city</span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a>plot_state_city(psi)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="99">
+<p><img
+src="vertopal_74f4bea81a0f4e228bb9aee66cef68fe/a70776d2703a6d64157bdb1f9a405ed97ddd7c20.png" /></p>
+</div>
+</div>
+<div class="cell code" data-execution_count="100"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:576}"
+id="Lkk4-QvKiNTk" data-outputId="311ab359-0755-4b41-e9d0-dee026569aaf">
+<div class="sourceCode" id="cb23"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> qiskit.visualization <span class="im">import</span> plot_state_qsphere</span>
+<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-3"><a href="#cb23-3" aria-hidden="true" tabindex="-1"></a>plot_state_qsphere(psi)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="100">
+<p><img
+src="vertopal_74f4bea81a0f4e228bb9aee66cef68fe/989abc7a961dee5c1421ab18aafed811486a8fa2.png" /></p>
+</div>
+</div>
+<section id="superposition-state" class="cell markdown"
+id="M4yxuAgfnLRV">
+<h1>Superposition State</h1>
+<p><span class="math inline">$|\psi\rangle =
+\frac{1}{\sqrt{2}}\left(|0\rangle+1\rangle\right)$</span></p>
+</section>
+<div class="cell code" data-execution_count="101" id="uov5EABYnNt0">
+<div class="sourceCode" id="cb24"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> qiskit <span class="im">import</span> QuantumRegister, ClassicalRegister, QuantumCircuit</span>
+<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> qiskit.visualization <span class="im">import</span> plot_bloch_multivector, plot_state_city, plot_state_qsphere</span>
+<span id="cb24-3"><a href="#cb24-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> qiskit.quantum_info <span class="im">import</span> Statevector, DensityMatrix</span>
+<span id="cb24-4"><a href="#cb24-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb24-5"><a href="#cb24-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-6"><a href="#cb24-6" aria-hidden="true" tabindex="-1"></a><span class="co"># --- Superposition State ---</span></span>
+<span id="cb24-7"><a href="#cb24-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Create a quantum circuit for the superposition state</span></span>
+<span id="cb24-8"><a href="#cb24-8" aria-hidden="true" tabindex="-1"></a>qreg_q <span class="op">=</span> QuantumRegister(<span class="dv">1</span>, <span class="st">&#39;q&#39;</span>)</span>
+<span id="cb24-9"><a href="#cb24-9" aria-hidden="true" tabindex="-1"></a>creg_c <span class="op">=</span> ClassicalRegister(<span class="dv">1</span>, <span class="st">&#39;c&#39;</span>)</span>
+<span id="cb24-10"><a href="#cb24-10" aria-hidden="true" tabindex="-1"></a>circuit_superposition <span class="op">=</span> QuantumCircuit(qreg_q, creg_c)</span>
+<span id="cb24-11"><a href="#cb24-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-12"><a href="#cb24-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Apply Hadamard gate to create superposition state |+&gt; = 1/sqrt(2) (|0&gt; + |1&gt;)</span></span>
+<span id="cb24-13"><a href="#cb24-13" aria-hidden="true" tabindex="-1"></a>circuit_superposition.h(qreg_q[<span class="dv">0</span>])</span>
+<span id="cb24-14"><a href="#cb24-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-15"><a href="#cb24-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Calculate the statevector</span></span>
+<span id="cb24-16"><a href="#cb24-16" aria-hidden="true" tabindex="-1"></a>psi_superposition <span class="op">=</span> Statevector(circuit_superposition)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="53"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:191}"
+id="WIWiwL5Tp78X" data-outputId="da348a79-fcda-48f5-a038-1e29ac2eb222">
+<div class="sourceCode" id="cb25"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a>circuit_superposition.draw(output<span class="op">=</span><span class="st">&quot;mpl&quot;</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="53">
+<p><img
+src="vertopal_74f4bea81a0f4e228bb9aee66cef68fe/8ec3b59d6fa978ee9fd8d449cd30e09afc214df9.png" /></p>
+</div>
+</div>
+<div class="cell code" data-execution_count="44"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:423}"
+id="bA6OOGfDnxUB" data-outputId="63e03968-c874-4b5f-bd9b-e65a012416a1">
+<div class="sourceCode" id="cb26"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a>plot_bloch_multivector(psi_superposition)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="44">
+<p><img
+src="vertopal_74f4bea81a0f4e228bb9aee66cef68fe/09f15011a1682e83817006f36bc983dbff8dac85.png" /></p>
+</div>
+</div>
+<div class="cell code" data-execution_count="45"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:675}"
+id="HFTHRO91nzE6" data-outputId="d99d211e-72ce-43f6-da49-78d487472d5c">
+<div class="sourceCode" id="cb27"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-2"><a href="#cb27-2" aria-hidden="true" tabindex="-1"></a>plot_state_city(psi_superposition)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="45">
+<p><img
+src="vertopal_74f4bea81a0f4e228bb9aee66cef68fe/e337a89cb2c64cc229e809463c5c9e245d8d9610.png" /></p>
+</div>
+</div>
+<div class="cell code" data-execution_count="46"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:576}"
+id="DuofvWKooeem" data-outputId="e5e5872c-0158-45dd-bd62-46779202d6f8">
+<div class="sourceCode" id="cb28"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-2"><a href="#cb28-2" aria-hidden="true" tabindex="-1"></a>plot_state_qsphere(psi_superposition)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="46">
+<p><img
+src="vertopal_74f4bea81a0f4e228bb9aee66cef68fe/d7df22801b68833a5208f87203fdb06f10e0ef1f.png" /></p>
+</div>
+</div>
+<div class="cell code" data-execution_count="57"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:288}"
+id="ANxZAJ0UohmS" data-outputId="4911026a-d8bf-4ac8-d67a-b8287a4a697e">
+<div class="sourceCode" id="cb29"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot Probability Amplitudes (magnitude squared) for superposition state</span></span>
+<span id="cb29-2"><a href="#cb29-2" aria-hidden="true" tabindex="-1"></a>probabilities <span class="op">=</span> np.<span class="bu">abs</span>(psi_superposition.data)<span class="op">**</span><span class="dv">2</span></span>
+<span id="cb29-3"><a href="#cb29-3" aria-hidden="true" tabindex="-1"></a>plt.subplot(<span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">4</span>)</span>
+<span id="cb29-4"><a href="#cb29-4" aria-hidden="true" tabindex="-1"></a>plt.bar(<span class="bu">range</span>(<span class="bu">len</span>(probabilities)), probabilities, color<span class="op">=</span><span class="st">&#39;b&#39;</span>, alpha<span class="op">=</span><span class="fl">0.7</span>)</span>
+<span id="cb29-5"><a href="#cb29-5" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Probability Amplitudes (Superposition)&#39;</span>)</span>
+<span id="cb29-6"><a href="#cb29-6" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;State |0&gt;, |1&gt;&#39;</span>)</span>
+<span id="cb29-7"><a href="#cb29-7" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Probability&#39;</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="57">
+<pre><code>Text(0, 0.5, &#39;Probability&#39;)</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_74f4bea81a0f4e228bb9aee66cef68fe/112dc2a4957cab969210c503996dc8669eca0406.png" /></p>
+</div>
+</div>
+<div class="cell code" data-execution_count="76"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:288}"
+id="9ZH5rHKFrYvb" data-outputId="5c327a60-2ae0-406b-eb0e-c0ff607f32fa">
+<div class="sourceCode" id="cb31"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a>plt.subplot(<span class="dv">2</span>,<span class="dv">3</span>,<span class="dv">5</span>)</span>
+<span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a>plt.bar(<span class="bu">range</span>(<span class="bu">len</span>(psi_superposition.data)), np.real(psi_superposition.data), color<span class="op">=</span><span class="st">&#39;r&#39;</span>, alpha<span class="op">=</span><span class="fl">0.7</span>, label<span class="op">=</span><span class="st">&#39;Real part&#39;</span>)</span>
+<span id="cb31-3"><a href="#cb31-3" aria-hidden="true" tabindex="-1"></a>plt.bar(<span class="bu">range</span>(<span class="bu">len</span>(psi_superposition.data)), np.imag(psi_superposition.data), color<span class="op">=</span><span class="st">&#39;b&#39;</span>, alpha<span class="op">=</span><span class="fl">0.7</span>, label<span class="op">=</span><span class="st">&#39;Imaginary part&#39;</span>)</span>
+<span id="cb31-4"><a href="#cb31-4" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;State Vector (Superposition)&#39;</span>)</span>
+<span id="cb31-5"><a href="#cb31-5" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;State |0&gt;, |1&gt;&#39;</span>)</span>
+<span id="cb31-6"><a href="#cb31-6" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Amplitude&#39;</span>)</span>
+<span id="cb31-7"><a href="#cb31-7" aria-hidden="true" tabindex="-1"></a>plt.legend()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="76">
+<pre><code>&lt;matplotlib.legend.Legend at 0x7b24f8dc0850&gt;</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_74f4bea81a0f4e228bb9aee66cef68fe/d2d753074b3e64f2196ca3d861cdb35c687f4098.png" /></p>
+</div>
+</div>
+<div class="cell markdown" id="E4C9UrnIotGb">
+<p>#Entangled State (Bell State) <span
+class="math inline">$|\phi^{+}\rangle =
+\frac{1}{\sqrt{2}}\left(|00\rangle+11\rangle\right)$</span></p>
+</div>
+<div class="cell code" data-execution_count="47" id="vCWEcCuEoqcs">
+<div class="sourceCode" id="cb33"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a><span class="co"># --- Entangled State (Bell State) ---</span></span>
+<span id="cb33-2"><a href="#cb33-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Create a quantum circuit for the entangled state (Bell state)</span></span>
+<span id="cb33-3"><a href="#cb33-3" aria-hidden="true" tabindex="-1"></a>qreg_q1 <span class="op">=</span> QuantumRegister(<span class="dv">1</span>, <span class="st">&#39;q1&#39;</span>)</span>
+<span id="cb33-4"><a href="#cb33-4" aria-hidden="true" tabindex="-1"></a>qreg_q2 <span class="op">=</span> QuantumRegister(<span class="dv">1</span>, <span class="st">&#39;q2&#39;</span>)</span>
+<span id="cb33-5"><a href="#cb33-5" aria-hidden="true" tabindex="-1"></a>creg_c1 <span class="op">=</span> ClassicalRegister(<span class="dv">1</span>, <span class="st">&#39;c1&#39;</span>)</span>
+<span id="cb33-6"><a href="#cb33-6" aria-hidden="true" tabindex="-1"></a>creg_c2 <span class="op">=</span> ClassicalRegister(<span class="dv">1</span>, <span class="st">&#39;c2&#39;</span>)</span>
+<span id="cb33-7"><a href="#cb33-7" aria-hidden="true" tabindex="-1"></a>circuit_entangled <span class="op">=</span> QuantumCircuit(qreg_q1, qreg_q2, creg_c1, creg_c2)</span>
+<span id="cb33-8"><a href="#cb33-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-9"><a href="#cb33-9" aria-hidden="true" tabindex="-1"></a><span class="co"># Apply Hadamard gate on the first qubit</span></span>
+<span id="cb33-10"><a href="#cb33-10" aria-hidden="true" tabindex="-1"></a>circuit_entangled.h(qreg_q1[<span class="dv">0</span>])</span>
+<span id="cb33-11"><a href="#cb33-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb33-12"><a href="#cb33-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Apply CNOT gate to entangle the qubits</span></span>
+<span id="cb33-13"><a href="#cb33-13" aria-hidden="true" tabindex="-1"></a>circuit_entangled.cx(qreg_q1[<span class="dv">0</span>], qreg_q2[<span class="dv">0</span>])</span>
+<span id="cb33-14"><a href="#cb33-14" aria-hidden="true" tabindex="-1"></a><span class="co"># Calculate the statevector for the entangled state</span></span>
+<span id="cb33-15"><a href="#cb33-15" aria-hidden="true" tabindex="-1"></a>psi_entangled <span class="op">=</span> Statevector(circuit_entangled)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="52"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:320}"
+id="LfKRi5hop1qh" data-outputId="c04e432e-6214-4cd1-9ac4-76cfec3ea671">
+<div class="sourceCode" id="cb34"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a>circuit_entangled.draw(output<span class="op">=</span><span class="st">&quot;mpl&quot;</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="52">
+<p><img
+src="vertopal_74f4bea81a0f4e228bb9aee66cef68fe/6fc59cf0796f7a4f29bb5a9a107f6e01270ed591.png" /></p>
+</div>
+</div>
+<div class="cell code" data-execution_count="49"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:392}"
+id="XuAFRsIDpbpP" data-outputId="9921746c-61b8-4106-a1ee-ff9c5cfd002e">
+<div class="sourceCode" id="cb35"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot Bloch sphere for entangled state</span></span>
+<span id="cb35-2"><a href="#cb35-2" aria-hidden="true" tabindex="-1"></a>plot_bloch_multivector(psi_entangled)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="49">
+<p><img
+src="vertopal_74f4bea81a0f4e228bb9aee66cef68fe/61a89b203c697c8679f8c7a95f51aa3e45fb9c29.png" /></p>
+</div>
+</div>
+<div class="cell code" data-execution_count="50"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:675}"
+id="DtUJcNKApgpq" data-outputId="fd12e476-f086-43a6-97b6-7f678e3dea22">
+<div class="sourceCode" id="cb36"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb36-1"><a href="#cb36-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot State City (amplitude and phase) for entangled state</span></span>
+<span id="cb36-2"><a href="#cb36-2" aria-hidden="true" tabindex="-1"></a>plot_state_city(psi_entangled)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="50">
+<p><img
+src="vertopal_74f4bea81a0f4e228bb9aee66cef68fe/8dc9f52cfa66c557f774ccc636b3af5113fed873.png" /></p>
+</div>
+</div>
+<div class="cell code" data-execution_count="51"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:576}"
+id="ujspCxE_ptYe" data-outputId="595f730c-04be-425f-a936-b43e27e9d167">
+<div class="sourceCode" id="cb37"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-2"><a href="#cb37-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot State Q-sphere for entangled state</span></span>
+<span id="cb37-3"><a href="#cb37-3" aria-hidden="true" tabindex="-1"></a>plot_state_qsphere(psi_entangled)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="51">
+<p><img
+src="vertopal_74f4bea81a0f4e228bb9aee66cef68fe/a82f60d2829c3d5b99c8eba21029b8e2966ff445.png" /></p>
+</div>
+</div>
+<div class="cell code" data-execution_count="62"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:288}"
+id="pReCgUgfpuzH" data-outputId="a2e11246-0bd1-4de8-dd39-a4b82a9eadfc">
+<div class="sourceCode" id="cb38"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb38-1"><a href="#cb38-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot Probability Amplitudes (magnitude squared) for entangled state</span></span>
+<span id="cb38-2"><a href="#cb38-2" aria-hidden="true" tabindex="-1"></a>probabilities_entangled <span class="op">=</span> np.<span class="bu">abs</span>(psi_entangled.data)<span class="op">**</span><span class="dv">2</span></span>
+<span id="cb38-3"><a href="#cb38-3" aria-hidden="true" tabindex="-1"></a>plt.subplot(<span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">4</span>)</span>
+<span id="cb38-4"><a href="#cb38-4" aria-hidden="true" tabindex="-1"></a>plt.bar(<span class="bu">range</span>(<span class="bu">len</span>(probabilities_entangled)), probabilities_entangled, color<span class="op">=</span><span class="st">&#39;g&#39;</span>, alpha<span class="op">=</span><span class="fl">0.7</span>)</span>
+<span id="cb38-5"><a href="#cb38-5" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Probability Amplitudes (Entangled State)&#39;</span>)</span>
+<span id="cb38-6"><a href="#cb38-6" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;State |00&gt;, |01&gt;, |10&gt;, |11&gt;&#39;</span>)</span>
+<span id="cb38-7"><a href="#cb38-7" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Probability&#39;</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="62">
+<pre><code>Text(0, 0.5, &#39;Probability&#39;)</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_74f4bea81a0f4e228bb9aee66cef68fe/165cfb5a59f51d808271b44b56a6222688f52609.png" /></p>
+</div>
+</div>
+<div class="cell code" data-execution_count="63"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:288}"
+id="uF0nS8Y4rQiO" data-outputId="12bc61a5-1568-464e-b822-1c5763e23825">
+<div class="sourceCode" id="cb40"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb40-1"><a href="#cb40-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot State Vector (real and imaginary parts) for entangled state</span></span>
+<span id="cb40-2"><a href="#cb40-2" aria-hidden="true" tabindex="-1"></a>plt.subplot(<span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">5</span>)</span>
+<span id="cb40-3"><a href="#cb40-3" aria-hidden="true" tabindex="-1"></a>plt.bar(<span class="bu">range</span>(<span class="bu">len</span>(psi_entangled.data)), np.real(psi_entangled.data), color<span class="op">=</span><span class="st">&#39;r&#39;</span>, alpha<span class="op">=</span><span class="fl">0.7</span>, label<span class="op">=</span><span class="st">&#39;Real part&#39;</span>)</span>
+<span id="cb40-4"><a href="#cb40-4" aria-hidden="true" tabindex="-1"></a>plt.bar(<span class="bu">range</span>(<span class="bu">len</span>(psi_entangled.data)), np.imag(psi_entangled.data), color<span class="op">=</span><span class="st">&#39;b&#39;</span>, alpha<span class="op">=</span><span class="fl">0.7</span>, label<span class="op">=</span><span class="st">&#39;Imaginary part&#39;</span>)</span>
+<span id="cb40-5"><a href="#cb40-5" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;State Vector (Entangled State)&#39;</span>)</span>
+<span id="cb40-6"><a href="#cb40-6" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;State |00&gt;, |01&gt;, |10&gt;, |11&gt;&#39;</span>)</span>
+<span id="cb40-7"><a href="#cb40-7" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Amplitude&#39;</span>)</span>
+<span id="cb40-8"><a href="#cb40-8" aria-hidden="true" tabindex="-1"></a>plt.legend()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="63">
+<pre><code>&lt;matplotlib.legend.Legend at 0x7b24fb92e3d0&gt;</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_74f4bea81a0f4e228bb9aee66cef68fe/e30ca9b80c3b6a4bb4864ac82f6545a14c540ee6.png" /></p>
+</div>
+</div>
+<div class="cell code" id="NVa15PpUrTWB">
+<div class="sourceCode" id="cb42"><pre
+class="sourceCode python"><code class="sourceCode python"></code></pre></div>
+</div>
+<section id="quantum-gates" class="cell markdown" id="6VnjFsX8r0n7">
+<h2>Quantum Gates</h2>
+</section>
+<div class="cell code" data-execution_count="67" id="2rs-ahwMr2aR">
+<div class="sourceCode" id="cb43"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb43-1"><a href="#cb43-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> qiskit <span class="im">import</span> QuantumRegister, ClassicalRegister, QuantumCircuit</span>
+<span id="cb43-2"><a href="#cb43-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> qiskit.visualization <span class="im">import</span> plot_bloch_multivector, plot_state_city, plot_state_qsphere</span>
+<span id="cb43-3"><a href="#cb43-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> qiskit.quantum_info <span class="im">import</span> Statevector</span>
+<span id="cb43-4"><a href="#cb43-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb43-5"><a href="#cb43-5" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb43-6"><a href="#cb43-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb43-7"><a href="#cb43-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Create a quantum circuit for a single qubit state |0&gt; initially</span></span>
+<span id="cb43-8"><a href="#cb43-8" aria-hidden="true" tabindex="-1"></a>qreg_q <span class="op">=</span> QuantumRegister(<span class="dv">1</span>, <span class="st">&#39;q&#39;</span>)</span>
+<span id="cb43-9"><a href="#cb43-9" aria-hidden="true" tabindex="-1"></a>creg_c <span class="op">=</span> ClassicalRegister(<span class="dv">1</span>, <span class="st">&#39;c&#39;</span>)</span>
+<span id="cb43-10"><a href="#cb43-10" aria-hidden="true" tabindex="-1"></a>circuit <span class="op">=</span> QuantumCircuit(qreg_q, creg_c)</span>
+<span id="cb43-11"><a href="#cb43-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb43-12"><a href="#cb43-12" aria-hidden="true" tabindex="-1"></a><span class="co"># --- Quantum Gate Applications ---</span></span>
+<span id="cb43-13"><a href="#cb43-13" aria-hidden="true" tabindex="-1"></a><span class="co"># Apply different gates on the qubit and visualize the results</span></span>
+<span id="cb43-14"><a href="#cb43-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb43-15"><a href="#cb43-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Identity Gate (No operation)</span></span>
+<span id="cb43-16"><a href="#cb43-16" aria-hidden="true" tabindex="-1"></a>circuit.<span class="bu">id</span>(qreg_q[<span class="dv">0</span>])</span>
+<span id="cb43-17"><a href="#cb43-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb43-18"><a href="#cb43-18" aria-hidden="true" tabindex="-1"></a><span class="co"># Apply Hadamard gate (creates superposition state)</span></span>
+<span id="cb43-19"><a href="#cb43-19" aria-hidden="true" tabindex="-1"></a>circuit.h(qreg_q[<span class="dv">0</span>])</span>
+<span id="cb43-20"><a href="#cb43-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb43-21"><a href="#cb43-21" aria-hidden="true" tabindex="-1"></a><span class="co"># Apply Pauli-X gate (bit-flip)</span></span>
+<span id="cb43-22"><a href="#cb43-22" aria-hidden="true" tabindex="-1"></a>circuit.x(qreg_q[<span class="dv">0</span>])</span>
+<span id="cb43-23"><a href="#cb43-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb43-24"><a href="#cb43-24" aria-hidden="true" tabindex="-1"></a><span class="co"># Apply Pauli-Y gate</span></span>
+<span id="cb43-25"><a href="#cb43-25" aria-hidden="true" tabindex="-1"></a>circuit.y(qreg_q[<span class="dv">0</span>])</span>
+<span id="cb43-26"><a href="#cb43-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb43-27"><a href="#cb43-27" aria-hidden="true" tabindex="-1"></a><span class="co"># Apply Pauli-Z gate</span></span>
+<span id="cb43-28"><a href="#cb43-28" aria-hidden="true" tabindex="-1"></a>circuit.z(qreg_q[<span class="dv">0</span>])</span>
+<span id="cb43-29"><a href="#cb43-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb43-30"><a href="#cb43-30" aria-hidden="true" tabindex="-1"></a><span class="co"># Apply S gate (Phase gate)</span></span>
+<span id="cb43-31"><a href="#cb43-31" aria-hidden="true" tabindex="-1"></a>circuit.s(qreg_q[<span class="dv">0</span>])</span>
+<span id="cb43-32"><a href="#cb43-32" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb43-33"><a href="#cb43-33" aria-hidden="true" tabindex="-1"></a><span class="co"># Apply T gate (π/8 gate)</span></span>
+<span id="cb43-34"><a href="#cb43-34" aria-hidden="true" tabindex="-1"></a>circuit.t(qreg_q[<span class="dv">0</span>])</span>
+<span id="cb43-35"><a href="#cb43-35" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb43-36"><a href="#cb43-36" aria-hidden="true" tabindex="-1"></a><span class="co"># Apply CNOT gate (entangling two qubits)</span></span>
+<span id="cb43-37"><a href="#cb43-37" aria-hidden="true" tabindex="-1"></a>qreg_q2 <span class="op">=</span> QuantumRegister(<span class="dv">1</span>, <span class="st">&#39;q2&#39;</span>)</span>
+<span id="cb43-38"><a href="#cb43-38" aria-hidden="true" tabindex="-1"></a>circuit.add_register(qreg_q2)</span>
+<span id="cb43-39"><a href="#cb43-39" aria-hidden="true" tabindex="-1"></a>circuit.cx(qreg_q[<span class="dv">0</span>], qreg_q2[<span class="dv">0</span>])</span>
+<span id="cb43-40"><a href="#cb43-40" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb43-41"><a href="#cb43-41" aria-hidden="true" tabindex="-1"></a><span class="co"># Create statevector from circuit</span></span>
+<span id="cb43-42"><a href="#cb43-42" aria-hidden="true" tabindex="-1"></a>psi <span class="op">=</span> Statevector(circuit)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="68"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:255}"
+id="w4E7nQqesODE" data-outputId="06f273b8-5306-4dfa-de4b-c5edaf241c07">
+<div class="sourceCode" id="cb44"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb44-1"><a href="#cb44-1" aria-hidden="true" tabindex="-1"></a>circuit.draw(output <span class="op">=</span> <span class="st">&quot;mpl&quot;</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="68">
+<p><img
+src="vertopal_74f4bea81a0f4e228bb9aee66cef68fe/9333c991133f96f2b8fa14114c4a3091ab2a3b58.png" /></p>
+</div>
+</div>
+<div class="cell code" data-execution_count="70"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:392}"
+id="wgRgSb_nr59m" data-outputId="3ff2569c-d284-4572-c68a-b2f0e9bb34c4">
+<div class="sourceCode" id="cb45"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb45-1"><a href="#cb45-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot Bloch Sphere</span></span>
+<span id="cb45-2"><a href="#cb45-2" aria-hidden="true" tabindex="-1"></a>plot_bloch_multivector(psi)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="70">
+<p><img
+src="vertopal_74f4bea81a0f4e228bb9aee66cef68fe/4a35ba94c61d083808edb508dcbeb8fce7d4a558.png" /></p>
+</div>
+</div>
+<div class="cell code" data-execution_count="71"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:675}"
+id="RQ_LfutnsYBc" data-outputId="30fdf60b-069c-4a4f-a03a-e6b295d8e46a">
+<div class="sourceCode" id="cb46"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb46-1"><a href="#cb46-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot State City (amplitude and phase)</span></span>
+<span id="cb46-2"><a href="#cb46-2" aria-hidden="true" tabindex="-1"></a>plot_state_city(psi)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="71">
+<p><img
+src="vertopal_74f4bea81a0f4e228bb9aee66cef68fe/9f79402b94c6fbdcedb5b3f4720d9dc6b2c0ea4b.png" /></p>
+</div>
+</div>
+<div class="cell code" data-execution_count="73"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:576}"
+id="N7t8TNpWsfMK" data-outputId="4bc667c7-204b-4c27-996f-bb6ebc3d15a6">
+<div class="sourceCode" id="cb47"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb47-1"><a href="#cb47-1" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb47-2"><a href="#cb47-2" aria-hidden="true" tabindex="-1"></a>plot_state_qsphere(psi)</span>
+<span id="cb47-3"><a href="#cb47-3" aria-hidden="true" tabindex="-1"></a></span></code></pre></div>
+<div class="output execute_result" data-execution_count="73">
+<p><img
+src="vertopal_74f4bea81a0f4e228bb9aee66cef68fe/82a09fdcb90cbe4c6169145f3886fdb87d321609.png" /></p>
+</div>
+</div>
+<div class="cell code" data-execution_count="78"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:288}"
+id="5Q4WuSSGseeM" data-outputId="f74b9c8a-02d0-4039-cc97-e3cf3fdd5251">
+<div class="sourceCode" id="cb48"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb48-1"><a href="#cb48-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot Probability Amplitudes</span></span>
+<span id="cb48-2"><a href="#cb48-2" aria-hidden="true" tabindex="-1"></a>plt.subplot(<span class="dv">2</span>,<span class="dv">3</span>,<span class="dv">2</span>)</span>
+<span id="cb48-3"><a href="#cb48-3" aria-hidden="true" tabindex="-1"></a>probabilities <span class="op">=</span> np.<span class="bu">abs</span>(psi.data)<span class="op">**</span><span class="dv">2</span></span>
+<span id="cb48-4"><a href="#cb48-4" aria-hidden="true" tabindex="-1"></a>plt.bar(<span class="bu">range</span>(<span class="bu">len</span>(probabilities)), probabilities, color<span class="op">=</span><span class="st">&#39;g&#39;</span>, alpha<span class="op">=</span><span class="fl">0.7</span>)</span>
+<span id="cb48-5"><a href="#cb48-5" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Probability Amplitudes&#39;</span>)</span>
+<span id="cb48-6"><a href="#cb48-6" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;State |0&gt;, |1&gt;, |00&gt;, |01&gt;, |10&gt;, |11&gt;&#39;</span>)</span>
+<span id="cb48-7"><a href="#cb48-7" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Probability&#39;</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="78">
+<pre><code>Text(0, 0.5, &#39;Probability&#39;)</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_74f4bea81a0f4e228bb9aee66cef68fe/3658ef48bfaeb897c2b22a19fb1c9ad88426684f.png" /></p>
+</div>
+</div>
+<div class="cell code" id="599QEEzNtH4k">
+<div class="sourceCode" id="cb50"><pre
+class="sourceCode python"><code class="sourceCode python"></code></pre></div>
+</div>
+</body>
+</html>
