@@ -33,13 +33,13 @@ $$
 |\psi\rangle = \alpha |0\rangle + \beta |1\rangle
 $$
 
-where $$\alpha$$ and $$\beta$$ are complex numbers that satisfy the normalization condition:
+where $ \alpha $ and $ \beta $ are complex numbers that satisfy the normalization condition:
 
 $$
 |\alpha|^2 + |\beta|^2 = 1
 $$
 
-Here, $$|0\rangle$$ and $$|1\rangle$$ represent the classical bit states, but now, the qubit can exist in a linear combination of these states. The coefficients $$\alpha$$ and $$\beta$$ determine the probability amplitudes for the system being observed in either of these two states.
+Here, $ |0\rangle $ and $ |1\rangle $ represent the classical bit states, but now, the qubit can exist in a linear combination of these states. The coefficients $ \alpha $ and $ \beta $ determine the probability amplitudes for the system being observed in either of these two states.
 
 But what exactly is a qubit physically? To dive deeper into this, we turn to the **postulates of quantum mechanics**, which govern the behavior of quantum systems.
 
@@ -49,9 +49,9 @@ The postulates of quantum mechanics provide the foundational principles that gov
 
 ### Postulate 1: State Representation and Quantum Space
 
-In quantum mechanics, the state of a quantum system is represented by a **vector** in a **complex vector space** (specifically, a **Hilbert space**). We represent the state of a system as a **ket** $$|\psi\rangle$$, a unit vector in this space. In the language of **bra-ket notation** developed by Paul M. Dirac, the corresponding **bra** $$\langle \psi|$$ is the *dual* of the ket.
+In quantum mechanics, the state of a quantum system is represented by a **vector** in a **complex vector space** (specifically, a **Hilbert space**). We represent the state of a system as a **ket** $ |\psi\rangle $, a unit vector in this space. In the language of **bra-ket notation** developed by Paul M. Dirac, the corresponding **bra** $ \langle \psi| $ is the *dual* of the ket.
 
-In a more familiar notion that's in matrix form, the state $$|\psi\rangle$$ is represented as a *column vector*, while the corresponding dual $$\langle \psi|$$ is the complex conjugate transpose (*row vector*) of that vector. For example, if we have a quantum system in a $d-$dimensional space, the state vector can be written as:
+In a more familiar notion that's in matrix form, the state $ |\psi\rangle $ is represented as a *column vector*, while the corresponding dual $ \langle \psi| $ is the complex conjugate transpose (*row vector*) of that vector. For example, if we have a quantum system in a $d-$dimensional space, the state vector can be written as:
 
 $$
 |\psi\rangle = \begin{pmatrix} \alpha_1 \\ \alpha_2 \\ \vdots \\ \alpha_d \end{pmatrix}
@@ -63,7 +63,7 @@ $$
 \langle \psi| = (\alpha_1^*, \alpha_2^*, \dots, \alpha_d^*)
 $$
 
-The **inner product** between two vectors $$|\psi\rangle$$ and $$|\phi\rangle$$ is defined as:
+The **inner product** between two vectors $ |\psi\rangle $ and $ |\phi\rangle $ is defined as:
 
 $$
 \langle \psi | \phi \rangle = \sum_i \alpha_i^* \beta_i
@@ -89,16 +89,16 @@ $$
 
 This condition is referred to as the **normalization condition**. It is not a purely mathematical constraint, but rather arises from a physical consideration, namely, the **conservation of probabilities**. The components of this vector are probability amplitudes, and thus the square of these amplitudes must sum to 1.
 
-> If $$|\psi\rangle \in \mathcal{H}$$, then any scalar multiple $$\lambda |\psi\rangle$$ is also an element of $$\mathcal{H}$$, where $$\lambda$$ is a scalar. Physically, $$\psi$$ and $$\lambda |\psi\rangle$$ represent the same quantum state, as $$\lambda$$ does not produce any observable distinction. Therefore, quantum states are defined up to an overall scale, which is often referred to as the "overall phase." This freedom allows us to normalize the vector, which does not alter the state itself.
+> If $ |\psi\rangle \in \mathcal{H} $, then any scalar multiple $ \lambda |\psi\rangle $ is also an element of $ \mathcal{H} $, where $ \lambda $ is a scalar. Physically, $ \psi $ and $ \lambda |\psi\rangle $ represent the same quantum state, as $ \lambda $ does not produce any observable distinction. Therefore, quantum states are defined up to an overall scale, which is often referred to as the "overall phase." This freedom allows us to normalize the vector, which does not alter the state itself.
 
 ### Two-Level Quantum Systems: The Qubit
 
-The simplest example of a quantum system is a **two-level system**, which is the quantum analog of a classical bit. The state space of such a system is described by two orthogonal states, $$|0\rangle$$ and $$|1\rangle$$. These states are often called the **computational basis**.
+The simplest example of a quantum system is a **two-level system**, which is the quantum analog of a classical bit. The state space of such a system is described by two orthogonal states, $ |0\rangle $ and $ |1\rangle $. These states are often called the **computational basis**.
 
 
 **Physical examples of two-level systems** include:
 
-- The **polarization of light**, with horizontal $$|H\rangle$$ and vertical $$|V\rangle$$ polarization states. A general polarization state is:
+- The **polarization of light**, with horizontal $ |H\rangle $ and vertical $ |V\rangle $ polarization states. A general polarization state is:
   
   $$
   |P\rangle = \alpha |H\rangle + \beta |V\rangle \in \mathbb{C}^2
@@ -112,15 +112,15 @@ The simplest example of a quantum system is a **two-level system**, which is the
   
   The polarization states of light can be described as quantum superpositions, where the light can exist in a state that is simultaneously horizontal and vertical polarization. This concept is fundamental to quantum optics and quantum information theory.
 
-- The **spin of particles**: The spin of a particle (such as an electron or proton) can be probed by an external magnetic field. In the presence of a magnetic field, the particle’s spin states are described as spin-up and spin-down states. These correspond to the two-level system with states $$|0\rangle$$ and $$|1\rangle$$:
+- The **spin of particles**: The spin of a particle (such as an electron or proton) can be probed by an external magnetic field. In the presence of a magnetic field, the particle’s spin states are described as spin-up and spin-down states. These correspond to the two-level system with states $ |0\rangle $ and $ |1\rangle $:
 
   $$
   |\Psi\rangle = \alpha |\uparrow\rangle + \beta |\downarrow\rangle \in \mathbb{C}^2
   $$
 
-  The spin of these particles is a crucial quantum property, and when measured along any axis (typically the $$z$$-axis), the spin is quantized into two distinct eigenstates—up and down—resulting in a binary state space. This concept forms the basis for many quantum technologies, including quantum computing and quantum cryptography.
+  The spin of these particles is a crucial quantum property, and when measured along any axis (typically the $ z $-axis), the spin is quantized into two distinct eigenstates—up and down—resulting in a binary state space. This concept forms the basis for many quantum technologies, including quantum computing and quantum cryptography.
 
-- **Two-level atoms (Superconducting Qubits)**: In a system with a two-level atom, there are two distinct energy levels: the ground state $$|G\rangle$$ and the excited state $$|E\rangle$$. The state is described as:
+- **Two-level atoms (Superconducting Qubits)**: In a system with a two-level atom, there are two distinct energy levels: the ground state $ |G\rangle $ and the excited state $ |E\rangle $. The state is described as:
 
   $$
   |\Psi\rangle = \alpha |G\rangle + \beta |E\rangle \in \mathbb{C}^2
@@ -136,7 +136,7 @@ $$
 
 ### The Bloch Sphere
 
-Because the state of a qubit is represented by two complex numbers (i.e., $$\alpha$$ and $$\beta$$), we can parameterize these states in terms of **two real angles**—$$\theta$$ and $$\phi$$:
+Because the state of a qubit is represented by two complex numbers (i.e., $ \alpha $ and $ \beta $), we can parameterize these states in terms of **two real angles**—$ \theta $ and $ \phi $:
 
 $$
 \alpha = \cos\left(\frac{\theta}{2}\right) e^{i \phi_{\alpha}}, \quad \beta = \sin\left(\frac{\theta}{2}\right) e^{i \phi_{\beta}}
