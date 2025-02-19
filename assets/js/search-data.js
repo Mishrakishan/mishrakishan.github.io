@@ -221,7 +221,7 @@ ninja.data = [{
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/blog/2024/Journey-uphill/";
+          window.location.href = "/blog/2024/code/";
         
       },
     },{id: "post-journey-uphill",
@@ -276,7 +276,7 @@ ninja.data = [{
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/blog/2016/Who-to-compare-yourself-with/";
+          window.location.href = "/blog/2016/images/";
         
       },
     },{id: "post-who-to-compare-yourself-with",
