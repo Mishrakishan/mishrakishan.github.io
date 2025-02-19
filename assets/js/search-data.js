@@ -111,7 +111,7 @@ ninja.data = [{
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/blog/2025/disqus-comments/";
+          window.location.href = "/blog/2025/Love-is-a-funny-thing/";
         
       },
     },{id: "post-why-i-write-ʕ-ᴥ-ʔ-zypper",
@@ -221,7 +221,7 @@ ninja.data = [{
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/blog/2024/code/";
+          window.location.href = "/blog/2024/Journey-uphill/";
         
       },
     },{id: "post-journey-uphill",
@@ -276,7 +276,7 @@ ninja.data = [{
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/blog/2016/images/";
+          window.location.href = "/blog/2016/Who-to-compare-yourself-with/";
         
       },
     },{id: "post-who-to-compare-yourself-with",
