@@ -1,0 +1,278 @@
+---
+layout: post
+title: 'Trial post'
+date: 2025-02-19 05:30
+description: "An introductory look at the core principles of quantum mechanics."
+tags: 
+  - physics
+categories: 
+  - education
+featured: true
+
+jupytext:
+  text_representation:
+    extension: .md
+    format_name: myst
+    format_version: 0.13
+    jupytext_version: 1.11.4
+kernelspec:
+  display_name: Python 3
+  language: python
+  name: python3
+---
+
+# Hamiltonians, topology, and symmetry
+
+```{code-cell} ipython3
+:tags: [remove-cell]
+
+import sys
+
+sys.path.append("../code")
+from init_course import *
+
+init_notebook()
+
+%opts Layout [sublabel_format='' aspect_weight=1 figure_size=(100) vspace=0.4]
+%output size = 150
+
+randn = np.random.randn
+
+alphas = np.linspace(0, 1, 1000)
+
+dims = dict(
+    E=holoviews.Dimension(r"$E$"),
+    alpha=holoviews.Dimension(r"$\alpha$"),
+    Q=holoviews.Dimension(r"$Q$"),
+    Q_BdG=holoviews.Dimension(r"$Q_{BdG}$"),
+)
+
+
+def make_random_real_ham(N):
+    H = randn(N, N)
+    H += H.T
+    return H / 2
+
+
+def make_cons_ham(N):
+    H = np.kron(pauli.s0, randn(N, N)) + np.kron(pauli.sz, randn(N, N))
+    H += H.T.conj()
+    return H / 2
+
+
+def make_random_ham(N):
+    H = randn(N, N) + 1j * randn(N, N)
+    H += H.T.conj()
+    return H / 2
+
+
+def make_random_symplectic_ham(N):
+    if N % 2:
+        raise ValueError("Matrix dimension should be a multiple of 2")
+    sy = np.kron(np.eye(N // 2), np.array([[0, -1j], [1j, 0]]))
+    h = randn(N, N) + 1j * randn(N, N)
+    h += h.T.conj()
+    Th = sy @ h.conj() @ sy
+    return (h + Th) / 4
+
+
+def make_chiral_ham(N):
+    temp1 = randn(N, N) + 1j * randn(N, N)
+    temp2 = randn(N, N) + 1j * randn(N, N)
+    H = np.kron(pauli.sx, temp1) + np.kron(pauli.sy, temp2)
+    H += H.T.conj()
+    return H / 2
+
+
+def make_BdG_ham(N):
+    # This is antisymmetric basis
+    H = 1j * randn(2 * N, 2 * N)
+    H += H.T.conj()
+    return H / 2
+
+
+def energies(alpha, H0, H1):
+    H = (1 - alpha) * H0 + alpha * H1
+    return np.linalg.eigvalsh(H)
+
+
+def find_spectrum(alphas, H0, H1):
+    spectrum = [energies(a, H0, H1) for a in alphas]
+    return np.array(spectrum)
+
+
+def find_Q(spectrum):
+    """Finds the number of bands that are under zero energy.
+
+    Parameters:
+    -----------
+    spectrum : numpy array
+        Array that contains the energies levels for every alpha.
+
+    Returns:
+    --------
+    Q : list
+        Number of bands under zero energy.
+    """
+    return [len(s[s < 0]) for s in spectrum]
+
+
+def plot_hamiltonian_spectrum(alphas, spectrum, E_range=(-4, 4)):
+    """Function that plots a spectrum for a range of alphas.
+
+    Parameters:
+    -----------
+    alphas : numpy array
+        Range of alphas for which the energies are calculated.
+    spectrum : numpy array
+        Array that contains the energies levels for every alpha.
+    E_range : tuple
+        The upper and lower limit of the y-dimension.
+
+    Returns:
+    --------
+    plot : holoviews.Path object
+        Plot of alphas vs. spectrum.
+    """
+    E_min, E_max = E_range
+    energy = dims["E"].clone()
+    energy.range = tuple(E_range)
+    plot = (holoviews.Path((alphas, spectrum), kdims=[dims["alpha"], energy]) * holoviews.HLine(0))
+    return plot.opts(plot={"xticks": [0, 0.5, 1], "yticks": [E_min, 0, E_max]})
+
+
+def plot_Q(alphas, Q, Q_range, Q_dim=dims["Q"]):
+    """Function that plots value of Q for a range of alphas.
+
+    Parameters:
+    -----------
+    alphas : numpy array
+        Range of alphas for which the energies are calculated.
+    Q : numpy array
+        Vector that contains the value of Q for every alpha.
+    Q_range : tuple
+        The upper and lower limit of the y-dimension.
+
+    Returns:
+    --------
+    plot : holoviews.Path object
+        Plot of alphas vs. Q.
+    """
+    Q_min, Q_max = Q_range
+    Q_mid = (Q_max + Q_min) / 2
+    Q_dim = Q_dim.clone()
+    Q_dim.range = tuple(Q_range)
+    plot = holoviews.Area((alphas, Q), kdims=[dims["alpha"]], vdims=[Q_dim]).opts(style={"alpha": 0.4})
+    plot *= holoviews.Curve((alphas, Q), kdims=[dims["alpha"]], vdims=[Q_dim])
+    return plot.opts(
+        plot={
+            "xticks": [0, 0.5, 1],
+            "yticks": [int(Q_min), int(Q_mid), int(Q_max)],
+            "aspect": 4}
+    )
+```
+
+## Topology and symmetry
+
+```{code-cell} ipython3
+
+Video("5ysdSoorJz4")
+```
+
+## Zero-dimensional quantum systems
+
+Imagine a quantum system with a finite number of states $N$. The Hamiltonian of such a system is represented by a matrix $H$ of dimension $N\times N$.
+This matrix is Hermitian, $H=H^\dagger$. Its real eigenvalues $E_n$ correspond to the allowed energies of the system,
+
+$$
+H\,\left|n\right\rangle = E_n\,\left|n\right\rangle\,,
+$$
+
+with $\left|n\right\rangle$ the corresponding eigenstate. Let's say that $H$ describes a small quantum dot with a few levels. We can imagine that the quantum dot is in weak contact with a metallic lead, as in the following sketch:
+
++++
+
+![](figures/dot.svg)
+
++++
+
+The presence of a metallic lead allows us to measure all the energies $E_n$ of the electronic states in the dot with respect to the Fermi level $E_F$ of the electrons in the metallic lead. In the following we will set $E_F=0$. Hence, all negative energies $E_n<0$ correspond to filled states in the dot, and all positive energies $E_n>0$ to empty states. In the sketch, the lead and the dot are separated by a potential barrier, such that they are only coupled very weakly. Thus, we can still consider the dot as an isolated system, to a good approximation.
+
++++
+
+We are now ready to start on the main theme of this course, topology.
+
+### Topology and gapped quantum systems
+
+Topology studies whether objects can be transformed continuously into each other. In condensed matter physics we can ask whether the Hamiltonians of two quantum systems can be continuously transformed into each other. If that is the case, then we can say that two systems are 'topologically equivalent'.
+
+If we considered all Hamiltonians without any constraint, every Hamiltonian could be continuously deformed into every other Hamiltonian, and all quantum systems would be topologically equivalent. This changes drastically if we restrict ourselves to systems with an energy gap. This means that there is a finite energy cost to excite the system above its ground state.
+If an energy gap is present, then the Hamiltonian of the system has no eigenvalues in a finite interval around zero energy.
+
+We can now use the following criterion: we say that two gapped quantum systems are topologically equivalent if their Hamiltonians can be continuously deformed into each other *without ever closing the energy gap*.
+
+In the following, we will see that often one is interested in some more specific criterion: for instance, that some symmetry may be preserved throughout the continuous path which connects two Hamiltonians.
+
+However, for the moment let's just see these ideas at play using our quantum dot as a simple test case. Imagine our dot is initially described by a random $H$, such as:
+
+```{code-cell} ipython3
+
+np.random.seed(30)
+H0 = make_random_real_ham(N=4)
+pprint_matrix(H0)
+```
+
+For simplicity, we have taken $H$ to be real. Let's now deform this Hamiltonian into another Hamiltonian $H'$, also real. We can imagine that this deformation describes the changes that occur to the dot as an external parameter, such as a gate voltage, is varied. We can parameterize the deformation by
+
+$$
+H(\alpha) = \alpha H' + (1-\alpha) H,
+$$
+
+so that at $\alpha=0$ we are at the initial Hamiltonian and at $\alpha=1$ we are at the final Hamiltonian. Let's see what the energy levels do as a function of $\alpha$ (we use more levels here than in the matrix above so that the spectrum looks more interesting).
+
+```{code-cell} ipython3
+
+np.random.seed(69)
+H0 = make_random_real_ham(N=10)
+H1 = make_random_real_ham(N=10)
+spectrum = find_spectrum(alphas, H0, H1)
+plot_hamiltonian_spectrum(alphas, spectrum)
+```
+
+You may notice from the plot that as $\alpha$ varies, it can happen that an energy level crosses zero energy. When this happens, we break the condition that there should be an energy gap in the system. Notice, however, that this does not necessarily mean that there is no continuous transformation between $H$ and $H'$ such that the gap does not close. It simply means that this particular path has gap closings. Perhaps it is possible to find another path which does not.
+
+So are $H$ and $H'$ topologically equivalent or not? Let's look at this situation:
+
+```{code-cell} ipython3
+
+np.random.seed(6)
+H0 = make_random_real_ham(N=10)
+H1 = make_random_real_ham(N=10)
+spectrum = find_spectrum(alphas, H0, H1)
+plot_hamiltonian_spectrum(alphas, spectrum)
+```
+
+We see that one level does cross zero (even twice), but it seems obvious that we can just push it down a little bit and we find a continuous path between two Hamiltonians. So we need to come up with an easier way to figure out if Hamiltonians can be transformed into each other or not.
+
+## The concept of a topological invariant
+
+In order to know whether there is any path which connects $H$ and $H'$ without closing the gap, we can count the number of levels below zero energy, i.e. the number of filled energy levels. This is possible because the eigenvalues of gapped Hamiltonians can move freely as long as they don't cross zero energy. Therefore continuous transformations exist exactly between Hamiltonians with the same number of energy levels below zero.
+
+Since this number can not change under continuous transformations inside the set of gapped Hamiltonians, we call it a *topological invariant* $Q$.
+
+Below, we plot the energy levels along our path from $H$ to $H'$ again, together with our topological invariant, the number of filled energy levels. You can see that this number changes between 3, 4 and 5. Hence we can say that $H$ and $H'$ are not topologically equivalent.
+
+```{code-cell} ipython3
+
+np.random.seed(69)
+H0 = make_random_real_ham(N=10)
+H1 = make_random_real_ham(N=10)
+spectrum = find_spectrum(alphas, H0, H1)
+Q = find_Q(spectrum)
+(
+    plot_hamiltonian_spectrum(alphas, spectrum)
+    + plot_Q(alphas, Q, [2, 6])
+).cols(1)
+```
+
+The plot makes it clear that we do not actually have to count the number of filled energy levels for both $H$ and $H'$, so it is enough to keep track of *zero energy crossings*. Whenever an energy level crosses zero energy, the number of levels below zero energy changes. Such a crossing therefore changes the topological invariant. We call that a *topological phase transition*.
