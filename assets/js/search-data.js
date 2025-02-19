@@ -221,7 +221,7 @@ ninja.data = [{
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/blog/2024/code/";
+          window.location.href = "/blog/2024/Journey-uphill/";
         
       },
     },{id: "post-journey-uphill",
