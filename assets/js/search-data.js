@@ -56,7 +56,7 @@ ninja.data = [{
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/blog/2025/twitter/";
+          window.location.href = "/blog/2025/Still-Vulnerable-at-25/";
         
       },
     },{id: "post-darwin-day",
