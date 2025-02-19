@@ -37,18 +37,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-trial-post",
-      
-        title: "Trial post",
-      
-      description: "An introductory look at the core principles of quantum mechanics.",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2025/trial/";
-        
-      },
-    },{id: "post-quantum-mechanics-101-demystifying-its-postulates",
+        },{id: "post-quantum-mechanics-101-demystifying-its-postulates",
       
         title: "Quantum Mechanics 101: Demystifying Its Postulates",
       
