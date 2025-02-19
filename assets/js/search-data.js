@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-quantum-mechanics-101-demystifying-its-postulates",
+        },{id: "post-time-evolution-of-a-quantum-state-in-magnetic-field",
+      
+        title: "Time Evolution of a Quantum state in magnetic field",
+      
+      description: "How does a spin evolve in the presence of a constant z-direction and arbitary direction of magnetic field.",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/Timeevol/";
+        
+      },
+    },{id: "post-quantum-mechanics-101-demystifying-its-postulates",
       
         title: "Quantum Mechanics 101: Demystifying Its Postulates",
       
