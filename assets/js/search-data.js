@@ -177,7 +177,7 @@ ninja.data = [{
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/blog/2025/math/";
+          window.location.href = "/blog/2025/Human-cycle-of-civilization-and-destruction/";
         
       },
     },{id: "post-human-cycle-of-civilization-and-destruction",
