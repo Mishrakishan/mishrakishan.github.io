@@ -276,7 +276,7 @@ ninja.data = [{
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/blog/2016/images/";
+          window.location.href = "/blog/2016/Who-to-compare-yourself-with/";
         
       },
     },{id: "post-who-to-compare-yourself-with",
@@ -298,7 +298,7 @@ ninja.data = [{
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/blog/2015/formatting-and-links/";
+          window.location.href = "/blog/2015/A-stage-of-internal-war-and-peace/";
         
       },
     },{id: "post-a-stage-of-internal-war-and-peace",
