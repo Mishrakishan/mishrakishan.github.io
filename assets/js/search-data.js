@@ -147,6 +147,17 @@ ninja.data = [{
           window.open("https://mishrakishan.medium.com/indias-operation-sindoor-an-era-of-assertive-deterrence-strategic-leap-in-warfare-diplomacy-33208dd674ad?source=rss-b79f6dd5dd45------2", "_blank");
         
       },
+    },{id: "post-stern-gerlach-experiment",
+      
+        title: "Stern-Gerlach Experiment",
+      
+      description: "Measuring Spin (Stern-Gerlach Experiment) in Quantum Computer",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/Sterngerl/";
+        
+      },
     },{id: "post-time-evolution-of-a-quantum-state-in-magnetic-field",
       
         title: "Time Evolution of a Quantum state in magnetic field",
