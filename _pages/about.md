@@ -35,30 +35,3 @@ To highlight, my research interests are:
 3. Magnetic soliton–based neuromorphic computing and spiking neural network (SNN) architectures and algorithms.
 
 At the end of the day, I do write [my blog](/blog/). I'd be happy to hear from you!
-
-{% raw %}
-<!-- ——— enable Abs / Bib toggle on this page ——— -->
-<script>
-document.addEventListener('DOMContentLoaded', () => {
-
-  /* Abs button */
-  document.querySelectorAll('.links .abstract').forEach(btn =>
-    btn.addEventListener('click', () => {
-      const blk = btn.closest('.entry-body').querySelector('div.abstract');  // <-- NB: div!
-      blk.classList.toggle('open');
-      blk.classList.toggle('hidden');
-    })
-  );
-
-  /* Bib button */
-  document.querySelectorAll('.links .bibtex').forEach(btn =>
-    btn.addEventListener('click', () => {
-      const blk = btn.closest('.entry-body').querySelector('div.bibtex');    // <-- NB: div!
-      blk.classList.toggle('open');
-      blk.classList.toggle('hidden');
-    })
-  );
-
-});
-</script>
-{% endraw %}
