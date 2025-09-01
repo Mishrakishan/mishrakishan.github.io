@@ -37,7 +37,117 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-time-evolution-of-a-quantum-state-in-magnetic-field",
+        },{id: "post-secularism-on-trial-india-s-unequal-faith-and-one-sided-solidarity",
+      
+        title: 'Secularism on Trial: India’s Unequal Faith and One-Sided Solidarity <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.open("https://mishrakishan.medium.com/secularism-on-trial-indias-unequal-faith-and-one-sided-solidarity-d4b435b8eb46?source=rss-b79f6dd5dd45------2", "_blank");
+        
+      },
+    },{id: "post-the-double-speaks-of-india-s-freedom-of-speech-the-elephant-in-the-room",
+      
+        title: 'The Double Speaks of India’s Freedom of Speech: The Elephant in the Room... <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.open("https://mishrakishan.medium.com/the-double-speaks-of-indias-freedom-of-speech-the-elephant-in-the-room-09baeae1e146?source=rss-b79f6dd5dd45------2", "_blank");
+        
+      },
+    },{id: "post-the-ideological-subversion-and-the-silent-siege-a-hidden-war-on-young-minds",
+      
+        title: 'The Ideological Subversion and the Silent Siege: A Hidden War on Young Minds... <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.open("https://kishanmishra.bearblog.dev/the-ideological-subversion-and-the-silent-siege-a-hidden-war-on-young-minds/", "_blank");
+        
+      },
+    },{id: "post-who-are-you-against-identity-in-the-age-of-false-choices-narratives-allegiances-and-the-death-of-nuance",
+      
+        title: 'Who Are You Against? — Identity in the Age of False Choices: Narratives,... <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.open("https://kishanmishra.bearblog.dev/who-are-you-against-identity-in-the-age-of-false-choices-narratives-allegiances-and-the-death-of-nuance/", "_blank");
+        
+      },
+    },{id: "post-the-politics-of-sides-identity-in-the-age-of-false-choices",
+      
+        title: 'The Politics of Sides — Identity in the Age of False Choices <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.open("https://mishrakishan.medium.com/who-are-you-against-11ed73277229?source=rss-b79f6dd5dd45------2", "_blank");
+        
+      },
+    },{id: "post-freedom-on-trial-free-speech-crisis-in-the-shadow-of-islamic-sensitivities",
+      
+        title: 'Freedom on Trial: Free Speech Crisis in the Shadow of Islamic Sensitivities <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.open("https://mishrakishan.medium.com/freedom-on-trial-free-speech-crisis-in-the-shadow-of-islamic-sensitivities-7b418e014a1f?source=rss-b79f6dd5dd45------2", "_blank");
+        
+      },
+    },{id: "post-blurred-line-fog-of-war-and-the-journalism-s-crisis-of-conscience-in-india",
+      
+        title: 'Blurred Line — Fog of War and the Journalism’s Crisis of Conscience in India <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.open("https://mishrakishan.medium.com/blurred-line-fog-of-war-and-the-journalisms-crisis-of-conscience-in-india-4f430eb17683?source=rss-b79f6dd5dd45------2", "_blank");
+        
+      },
+    },{id: "post-the-ideological-subversion-and-the-silent-siege-a-hidden-war-on-young-minds",
+      
+        title: 'The Ideological Subversion and the Silent Siege: A Hidden War on Young Minds... <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.open("https://mishrakishan.medium.com/the-ideological-subversion-and-the-silent-siege-a-hidden-war-on-young-minds-d0692092767e?source=rss-b79f6dd5dd45------2", "_blank");
+        
+      },
+    },{id: "post-terrorism-and-war-with-india-continue-to-be-the-raison-d-être-of-the-pakistan-state",
+      
+        title: 'Terrorism and War with India continue to be the raison d’être of the... <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.open("https://mishrakishan.medium.com/terrorism-and-war-with-india-continue-to-be-the-raison-d%C3%AAtre-of-the-pakistan-state-405039b16127?source=rss-b79f6dd5dd45------2", "_blank");
+        
+      },
+    },{id: "post-1947-partition-to-operation-sindoor-india-s-era-of-assertive-deterrence-strategic-leap-in",
+      
+        title: '1947 Partition to Operation Sindoor: India’s Era of Assertive Deterrence, Strategic Leap in…... <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.open("https://mishrakishan.medium.com/indias-operation-sindoor-an-era-of-assertive-deterrence-strategic-leap-in-warfare-diplomacy-33208dd674ad?source=rss-b79f6dd5dd45------2", "_blank");
+        
+      },
+    },{id: "post-time-evolution-of-a-quantum-state-in-magnetic-field",
       
         title: "Time Evolution of a Quantum state in magnetic field",
       
@@ -125,11 +235,11 @@ ninja.data = [{
           window.location.href = "/blog/2025/Love-is-a-funny-thing/";
         
       },
-    },{id: "post-why-i-write-ʕ-ᴥ-ʔ-zypper",
+    },{id: "post-",
       
-        title: 'why i write | ʕ•ᴥ•ʔ zypper <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        title: ' <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
       
-      description: "Inspired by Robert Birming’s “Why write“, I thought I would write my own spin-off and say why I do it.",
+      description: "Pika is a pretty good blogging platform built by the good people at Good Enough.",
       section: "Posts",
       handler: () => {
         
@@ -147,11 +257,11 @@ ninja.data = [{
           window.open("https://kishanmishra.bearblog.dev/love-is-funny-thing/", "_blank");
         
       },
-    },{id: "post-how-i-deal-with-information-overload-ʕ-ᴥ-ʔ-zypper",
+    },{id: "post-",
       
-        title: 'how i deal with information overload | ʕ•ᴥ•ʔ zypper <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+        title: ' <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
       
-      description: "I have developed a system for myself to remedy the large influx of information. Tying it all together is my note taking app that hosts my original thoughts.",
+      description: "Pika is a pretty good blogging platform built by the good people at Good Enough.",
       section: "Posts",
       handler: () => {
         
@@ -199,7 +309,7 @@ ninja.data = [{
       section: "Posts",
       handler: () => {
         
-          window.open("https://kishanmishra.bearblog.dev/posts/", "_blank");
+          window.open("https://kishanmishra.bearblog.dev/human-cycle/", "_blank");
         
       },
     },{id: "post-why-britain-is-broke",
@@ -266,17 +376,6 @@ ninja.data = [{
       handler: () => {
         
           window.open("https://mishrakishan.medium.com/darwin-day-ad5c5170b419?source=rss-b79f6dd5dd45------2", "_blank");
-        
-      },
-    },{id: "post-independence-defence-and-resistance",
-      
-        title: '“Independence, Defence and Resistance” <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-      
-      description: "",
-      section: "Posts",
-      handler: () => {
-        
-          window.open("https://mishrakishan.medium.com/independence-defence-and-resistance-5c315056a072?source=rss-b79f6dd5dd45------2", "_blank");
         
       },
     },{id: "post-who-to-compare-yourself-with",
