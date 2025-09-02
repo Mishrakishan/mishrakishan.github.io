@@ -2,16 +2,27 @@
 layout: about
 title: about
 permalink: /
+<<<<<<< HEAD
+subtitle: Researcher · Theoretical Condensed Matter Physics · Spintronics (AI/ML)
+=======
 subtitle: "<span style='color:#0086b3;'>Researcher · Theoretical Condensed Matter Physics · Spintronics (AI/ML)</span>"
+>>>>>>> 9d2a05c4a368042f57f3d7743b945068d07b40a3
 
 profile:
   #image_alt: "Profile picture of Kishan Mishra"
   align: right
   image: prof_pic.jpg
+<<<<<<< HEAD
+  image_circular: false # crops the image to make it circular
+  address: <p>University of Delhi, India</p>
+  more_info: >
+    <p>University of Delhi, India</p>
+=======
   image_circular: true # crops the image to make it circular
   address: <p>University of Delhi, India</p>
   more_info: >
     <p>University of Delhi, India</p>
+>>>>>>> 9d2a05c4a368042f57f3d7743b945068d07b40a3
   #more_info: >
     #<p>555 your office number</p>
     #<p>123 your address street</p>
@@ -26,6 +37,14 @@ social: true # includes social icons at the bottom of the page
 Hi, I'm Kishan, a theoretical physicist (in-progress) with a passion for ML/AI and an insatiable curiosity about almost everything —from science and philosophy to history religion, technology, literature and sometimes politics.
 I primarly work in theoretical condensed matter physics, particularly on topological Supercondcutors and Magnetic system: magnetic solitons such as skyrmions and domain walls. As a result, much of my research also revolves around spintronics and its applications. I have an active interest in Neuromorphic computing. Recently, I have been increasingly drawn to the foundations of topological quantum computing, especially through the use of non-Abelian anyons such as Majorana zero modes (MZMs), their braiding statistics and topological qubit architecture. 
 
+<<<<<<< HEAD
+Hi, I'm Kishan, a theoretical physicist (in-progress) with a passion for ML/AI and an insatiable curiosity about almost everything —from science and philosophy to history religion, technology, literature and sometimes politics.
+I primarly work in theoretical condensed matter physics, particularly on topological Supercondcutors and Magnetic system: magnetic solitons such as skyrmions and domain walls. As a result, much of my research also revolves around spintronics and its applications. I have an active interest in Neuromorphic computing. Recently, I have been increasingly drawn to the foundations of topological quantum computing, especially through the use of non-Abelian anyons such as Majorana zero modes (MZMs), their braiding statistics and topological qubit architecture. 
+=======
+### Research Interests
+>>>>>>> 9d2a05c4a368042f57f3d7743b945068d07b40a3
+
+<<<<<<< HEAD
 ### Research Interests
 
 To highlight, my research interests are:
@@ -35,3 +54,13 @@ To highlight, my research interests are:
 3. Magnetic soliton–based neuromorphic computing and spiking neural network (SNN) architectures and algorithms.
 
 At the end of the day, I do write [my blog](/blog/). I'd be happy to hear from you!
+=======
+To highlight, my research interests are:
+
+1. Topological Quantum Matter and associated phase transitions in hybrid systems, with a focus on Majorana Zero Mode physics.
+2. Proximity-coupled hybrid heterostructures of semiconductors, superconductors, metals, and insulators, with emphasis on the interplay of spin–orbit coupling, symmetry, and chiral magnetic textures (such as domain walls and skyrmions) with superconductivity, and a strong interest in quantum coherence and spin-based transport in engineered materials.
+3. Magnetic soliton–based neuromorphic computing and spiking neural network (SNN) architectures and algorithms.
+
+At the end of the day, I do write [my blog](/blog/). I'd be happy to hear from you!
+
+>>>>>>> 9d2a05c4a368042f57f3d7743b945068d07b40a3

@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /teaching/
-title: Internet World
+title: internet
 description: A curated collection of insightful articles, research, and literature from across the web, covering a wide range of topics to inspire learning and spark curiosity.
 nav: true
 nav_order: 3
