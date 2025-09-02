@@ -23,19 +23,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-internet-world",
-          title: "Internet World",
+        },{id: "nav-internet",
+          title: "internet",
           description: "A curated collection of insightful articles, research, and literature from across the web, covering a wide range of topics to inspire learning and spark curiosity.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
-          },
-        },{id: "nav-vitae",
-          title: "vitae",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/cv/";
           },
         },{id: "post-secularism-on-trial-india-s-unequal-faith-and-one-sided-solidarity",
       
