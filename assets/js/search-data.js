@@ -301,17 +301,6 @@ ninja.data = [{
           window.open("https://kishanmishra.bearblog.dev/darwin-day/", "_blank");
         
       },
-    },{id: "post-ideological-subversion",
-      
-        title: "Ideological Subversion",
-      
-      description: "",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2025/Ideological-Subversion/";
-        
-      },
     },{id: "post-human-cycle-of-civilization-and-destruction",
       
         title: "Human cycle of civilization and destruction",
