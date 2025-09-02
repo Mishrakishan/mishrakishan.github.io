@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Researcher · Theoretical Condensed Matter Physics · Spintronics (AI/ML)
+subtitle: "<span style='color:#0086b3;'>Researcher · Theoretical Condensed Matter Physics · Spintronics (AI/ML)</span>"
 
 profile:
   #image_alt: "Profile picture of Kishan Mishra"
