@@ -3,8 +3,8 @@ const ninja = document.querySelector('ninja-keys');
 
 // add the home and posts menu items
 ninja.data = [{
-    id: "nav-about",
-    title: "about",
+    id: "nav-",
+    title: "",
     section: "Navigation",
     handler: () => {
       window.location.href = "/";
@@ -23,8 +23,8 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-internet-world",
-          title: "Internet World",
+        },{id: "nav-internet",
+          title: "internet",
           description: "A curated collection of insightful articles, research, and literature from across the web, covering a wide range of topics to inspire learning and spark curiosity.",
           section: "Navigation",
           handler: () => {
@@ -299,6 +299,17 @@ ninja.data = [{
       handler: () => {
         
           window.open("https://kishanmishra.bearblog.dev/darwin-day/", "_blank");
+        
+      },
+    },{id: "post-ideological-subversion",
+      
+        title: "Ideological Subversion",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/Ideological-Subversion/";
         
       },
     },{id: "post-human-cycle-of-civilization-and-destruction",
