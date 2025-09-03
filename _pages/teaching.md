@@ -7,6 +7,16 @@ nav: true
 nav_order: 3
 ---
 
+### Theoretical Physics Lectures
+1. [David Tong Lectures](https://www.damtp.cam.ac.uk/user/tong)
+2. [Steven Girvin, The QHE](http://arxiv.org/abs/cond-mat/9907002)
+3. [Mark Goerbig, QHE](http://arxiv.org/abs/0909.1998) 
+4. [Sebastian Huber, Topological Quantum Numbers in Condensed Matter Systems ](https://cmt-qo.phys.ethz.ch/education/spring-semester-2013--topological-quantum-numbers-in-condensed-m.html) 
+5. [Edward Witten, Three Lectures on Topological Phases of Matter](http://arxiv.org/abs/1510.07698)
+6. [Gerald Dunne, Aspects of Chern-Simons Theory](http://arxiv.org/abs/hep-th/9902115)
+7. [Chetan Nayak, Quantum Condensed Matter Physics](http://muellergroup.lassp.cornell.edu/Basic_Training_Spring_2013/Field_Theory_files/nayak_notes.pdf)
+
+
 ### Science
 
 1. [What Is Life? The Physical Aspect of the Living Cell](https://www.arvindguptatoys.com/arvindgupta/whatislife-schrodinger.pdf) (**Erwin Schrodinger**, 1944)  
