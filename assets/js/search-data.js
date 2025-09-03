@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "post-secularism-on-trial-india-s-unequal-faith-and-one-sided-solidarity",
+        },{id: "post-ideological-subversion",
+      
+        title: "Ideological Subversion",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/Ideological-Subversion/";
+        
+      },
+    },{id: "post-secularism-on-trial-india-s-unequal-faith-and-one-sided-solidarity",
       
         title: 'Secularism on Trial: India’s Unequal Faith and One-Sided Solidarity <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
       
@@ -140,9 +151,9 @@ ninja.data = [{
           window.open("https://mishrakishan.medium.com/indias-operation-sindoor-an-era-of-assertive-deterrence-strategic-leap-in-warfare-diplomacy-33208dd674ad?source=rss-b79f6dd5dd45------2", "_blank");
         
       },
-    },{id: "post-stern-gerlach-experiment",
+    },{id: "post-stern-gerlach-experiment-in-qiskit",
       
-        title: "Stern-Gerlach Experiment",
+        title: "Stern-Gerlach Experiment in Qiskit",
       
       description: "Measuring Spin (Stern-Gerlach Experiment) in Quantum Computer",
       section: "Posts",
@@ -239,17 +250,6 @@ ninja.data = [{
           window.location.href = "/blog/2025/Love-is-a-funny-thing/";
         
       },
-    },{id: "post-",
-      
-        title: ' <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-      
-      description: "Pika is a pretty good blogging platform built by the good people at Good Enough.",
-      section: "Posts",
-      handler: () => {
-        
-          window.open("https://zypper.net/why-i-write/#fnref-1", "_blank");
-        
-      },
     },{id: "post-love-is-a-funny-thing",
       
         title: 'Love is a funny thing. <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
@@ -259,17 +259,6 @@ ninja.data = [{
       handler: () => {
         
           window.open("https://kishanmishra.bearblog.dev/love-is-funny-thing/", "_blank");
-        
-      },
-    },{id: "post-",
-      
-        title: ' <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-      
-      description: "Pika is a pretty good blogging platform built by the good people at Good Enough.",
-      section: "Posts",
-      handler: () => {
-        
-          window.open("https://zypper.net/how-i-deal-with-information-overload/", "_blank");
         
       },
     },{id: "post-a-brief-history-amp-ethos-of-the-digital-garden",
@@ -292,17 +281,6 @@ ninja.data = [{
       handler: () => {
         
           window.open("https://kishanmishra.bearblog.dev/darwin-day/", "_blank");
-        
-      },
-    },{id: "post-ideological-subversion",
-      
-        title: "Ideological Subversion",
-      
-      description: "",
-      section: "Posts",
-      handler: () => {
-        
-          window.location.href = "/blog/2025/Ideological-Subversion/";
         
       },
     },{id: "post-human-cycle-of-civilization-and-destruction",
