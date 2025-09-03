@@ -8,6 +8,7 @@ nav_order: 3
 ---
 
 ### Theoretical Physics Lectures
+
 1. [David Tong Lectures](https://www.damtp.cam.ac.uk/user/tong/)
 2. [Steven Girvin, The QHE](http://arxiv.org/abs/cond-mat/9907002)
 3. [Mark Goerbig, QHE](http://arxiv.org/abs/0909.1998) 
