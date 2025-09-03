@@ -2,7 +2,7 @@
 layout: post
 title: 'Ideological Subversion'
 date: 2025-08-12 00:00
-description: 'Yuri Bezmenov's philosophy on Ideological Subversion of Young Minds'
+description: "Yuri Bezmenov's philosophy on Ideological Subversion of Young Minds"
 tags: writing philosophy history
 categories:
 related_posts: true
