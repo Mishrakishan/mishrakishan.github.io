@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "post-ideological-subversion",
+        },{id: "post-",
+      
+        title: "",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/2025-08-20-QHE/";
+        
+      },
+    },{id: "post-ideological-subversion",
       
         title: "Ideological Subversion",
       
