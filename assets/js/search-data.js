@@ -52,6 +52,17 @@ ninja.data = [{
           window.location.href = "/blog/2025/Ideological-Subversion/";
         
       },
+    },{id: "post-how-can-electrons-be-topological-gravity-and-levity",
+      
+        title: 'How can electrons be “topological”? | Gravity and Levity <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
+      
+      description: "The following text is an excerpt from a draft of an article that I co-wrote for the magazine Physics Today, together with Prof. Art Ramirez at UC Santa Cruz. The article will appear (edited, and with more professional figures) in the magazine in September. The article attempts to give some intuition about the concept of…",
+      section: "Posts",
+      handler: () => {
+        
+          window.open("https://gravityandlevity.wordpress.com/2020/07/14/how-can-electrons-be-topological/", "_blank");
+        
+      },
     },{id: "post-secularism-on-trial-india-s-unequal-faith-and-one-sided-solidarity",
       
         title: 'Secularism on Trial: India’s Unequal Faith and One-Sided Solidarity <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
