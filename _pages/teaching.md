@@ -9,14 +9,15 @@ nav_order: 3
 
 ### Theoretical Physics Lectures
 
-1. [David Tong Lectures](https://www.damtp.cam.ac.uk/user/tong/)
-2. [Steven Girvin, The QHE](http://arxiv.org/abs/cond-mat/9907002)
-3. [Mark Goerbig, QHE](http://arxiv.org/abs/0909.1998) 
-4. [Sebastian Huber, Topological Quantum Numbers in Condensed Matter Systems ](https://cmt-qo.phys.ethz.ch/education/spring-semester-2013--topological-quantum-numbers-in-condensed-m.html) 
-5. [Edward Witten, Three Lectures on Topological Phases of Matter](http://arxiv.org/abs/1510.07698)
-6. [Gerald Dunne, Aspects of Chern-Simons Theory](http://arxiv.org/abs/hep-th/9902115)
-7. [Chetan Nayak, Quantum Condensed Matter Physics](http://muellergroup.lassp.cornell.edu/Basic_Training_Spring_2013/Field_Theory_files/nayak_notes.pdf)
+1. [David Tong — Lectures](https://www.damtp.cam.ac.uk/user/tong/)
+2. [Steven Girvin — The Quantum Hall Effect](http://arxiv.org/abs/cond-mat/9907002)
+3. [Mark Goerbig — Quantum Hall Effect](http://arxiv.org/abs/0909.1998) 
+4. [Sebastian Huber — Topological Quantum Numbers in Condensed Matter Systems](https://cmt-qo.phys.ethz.ch/education/spring-semester-2013--topological-quantum-numbers-in-condensed-m.html) 
+5. [Edward Witten — Three Lectures on Topological Phases of Matter](http://arxiv.org/abs/1510.07698)
+6. [Gerald Dunne — Aspects of Chern-Simons Theory](http://arxiv.org/abs/hep-th/9902115)
+7. [Chetan Nayak — Quantum Condensed Matter Physics](http://muellergroup.lassp.cornell.edu/Basic_Training_Spring_2013/Field_Theory_files/nayak_notes.pdf)
 
+---
 
 ### Science
 
@@ -28,15 +29,21 @@ nav_order: 3
 6. [Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?](https://journals.aps.org/pr/pdf/10.1103/PhysRev.47.777) (**A. Einstein, B. Podolsky, N. Rosen**, 1935)  
 7. [The Unreasonable Effectiveness of Mathematics in the Natural Sciences](https://www.maths.ed.ac.uk/~v1ranick/papers/wigner.pdf) (**Eugene Wigner**, 1960)
 
+---
+
 ### Tech
 
 1. [The Website Obesity Crisis](https://idlewords.com/talks/website_obesity.htm) (**Maciej Cegłowski**)  
 2. [Digital Minimalism: Choosing a Focused Life in a Noisy World](#) (**Cal Newport**)  
 3. [Write Plain Text Files](https://sive.rs/plaintext) (**Derek Sivers**)
 
+---
+
 ### Literature
 
 1. [Forever Overhead](https://welcometotheloonybin.wordpress.com/2008/09/17/forever-overhead/) (**David Foster Wallace**)
+
+---
 
 ### Art
 
@@ -52,6 +59,8 @@ nav_order: 3
 10. [Welcome Address to Freshman Parents](https://www.bc.edu/content/dam/files/centers/boisi/pdf/s091/Welcome_address_to_freshman_at_Boston_Conservatory.pdf) (**Karl Paulnack**)  
 11. [The Art of Noticing](https://robwalker.substack.com/) (**Rob Walker**)
 
+---
+
 ### Writing
 
 1. [Why I Write](https://www.are.na/block/14515853) (**Joan Didion**)  
@@ -62,10 +71,14 @@ nav_order: 3
 6. [why you should write more](https://www.avabear.xyz/p/why-you-should-write-more) (**Ava**)
 7. [Writing,  Briefly](https://paulgraham.com/writing44.html) (**Paul Graham**)
 8. [Some thoughts on writing](https://danluu.com/writing-non-advice/) (**Dan Luu**)
+
+---
+
 ### Miscellaneous
 
 1. [The Review of 2024 Nobel Prize](https://jabde.com/wp-content/uploads/2024/10/Nobel-Prize-Recap-2024.pdf) (The Journal of Immaterial Science)
 
+<hr style="border-top: 2px double #444;">
 
 ### Debate
 
@@ -89,13 +102,15 @@ Very recently shared, the following debate features two prominent intellectuals�
 
 Well, kudos to the moderator Alex O’Connor, the debate between Dawkins and Peterson presents a clash of worldviews: Dawkins advocates for a scientific approach to culture, while Peterson offers a symbolic interpretation rooted in archetypes. Both provide compelling arguments.
 
+<hr style="border-top: 2px double #444;">
+
 ### Quotes
   
 *I leave Sisyphus at the foot of the mountain. One always finds one's burden again. But Sisyphus teaches the higher fidelity that negates the gods and raises rocks. He too concludes that all is well. This universe henceforth without a master seems to him neither sterile nor futile. Each atom of that stone, each mineral flake of that night-filled mountain, in itself, forms a world. The struggle itself toward the heights is enough to fill a man's heart. One must imagine Sisyphus happy.*
 
 **-Albert Camus**
 
-<hr class="grey-line">
+- - -
 
 *There’s been time this whole time. You can’t kill time with your heart. Everything takes time. Bees have to move very fast to stay still.*
 
@@ -121,14 +136,14 @@ Well, kudos to the moderator Alex O’Connor, the debate between Dawkins and Pet
 
 **-David Foster Wallace**
 
-<hr class="grey-line">
+- - -
 
 *We are a society awash in skillfully manufactured lies. Solitude that makes thought possible--a removal from the electronic cacophony that besieges us- is harder and harder to find. We have severed ourselves from a print- based culture. We are unable to grapple with the nuances and complexity of ideas. We have traded ideas for fabricated clichés. We speak in the hollow language we are given by our corporate masters. Reality, presented to us as image, is unexamined and therefore false. We are culturally illiterate.
 And because of our cultural illiteracy we are easily manipulated and controlled.*
 
  **-Chris Hedges**
 
-<hr class="grey-line">
+- - -
 
 *Everyone must leave something behind when he dies, my grandfather said. A child or a book or a painting or a house or a wall built or a pair of shoes made. Or a garden planted.
 Something your hand touched some way so your soul has somewhere to go when you die, and when people look at that tree or that flower you planted, you're there. It doesn't matter what you do, he said, so long as you change something from the way it was before you touched it into something that's like you after you take your hands away.
@@ -136,21 +151,21 @@ The difference between the man who just cuts lawns and a real gardener is in the
 
 **-Ray Bradbury**
 
-<hr class="grey-line">
+- - -
 
 *Loneliness is personal, and it is also political. Loneliness is collective; it is a city. As to how to inhabit it, there are no rules and nor is there any need to feel shame, only to remember that the pursuit of individual happiness does not trump or excuse our obligations to each another. We are in this together, this accumulation of scars, this world of objects, this physical and temporary heaven that so often takes on the countenance of hell. What matters is kindness; what matters is solidarity.
 What matters is staying alert, staying open, because if we know anything from what has gone before us, it is that the time for feeling will not last.*
 
 **-The lonely city, Olivia Laing**
 
-<hr class="grey-line">
+- - -
 
 *These days, everybody is supposed to be so intelligent:
 'Isn't it terrible about Nixon getting elected?' 'Did you hear about the earthquake in Peru?' And you're supposed to have all the answers. But when it gets down to the nitty-gritty, like, What is bugging you, mister? Why can't you make it with your wife? Why do you lie awake all night staring at the ceiling? Why, why, why do you refuse to recognize you have problems and deal with them?'The answer is that people have forgotten how to relate or respond. In this day of mass communications and instant communications, there is no communication between people. Instead it's long-winded stories or hostile bits, or laughter. But nobody's really laughing. It's more an hysterical, joyless kind of sound. Translation: 'I am here and I don't know why.*
 
 **-John Cassavetes**
 
-<hr class="grey-line">
+- - -
 
 *Woman's role in creation should be parallel to her role in life. I don't mean the good earth. I mean the bad earth too, the demon, the instincts, the storms of nature. Tragedies, conflicts, mysteries are personal. Man fabricated a detachment which became fatal. Woman must not fabricate.
 She must descend into the real womb and expose its secrets and its labyrinths. She must describe it as the city of Fez, with its Arabian Nights gentleness, tranquility and mystery.
@@ -159,21 +174,21 @@ Man invented a woman to suit his needs. He disposed of her by identifying her wi
 
 **-Anais Nin**
 
-<hr class="grey-line">
+- - -
 
 *No other life forms know they are alive, and neither do they know they will die. This is our curse alone. Without this hex upon our heads, we would never have withdrawn as far as we have from the natural-so far and for such a time that it is a relief to say what we have been trying with our all not to say: We have long since been denizens of the natural world.
 Everywhere around us are natural habitats, but within us is the shiver of startling and dreadful things. Simply put: We are not from here. If we vanished tomorrow, no organism on this planet would miss us. Nothing in nature needs us.*
 
 **-Thomas Ligotti**
 
-<hr class="grey-line">
+- - -
 
 *These days, everybody is supposed to be so intelligent:
 'Isn't it terrible about Nixon getting elected?' 'Did you hear about the earthquake in Peru?' And you're supposed to have all the answers. But when it gets down to the nitty-gritty, like, What is bugging you, mister? Why can't you make it with your wife? Why do you lie awake all night staring at the ceiling? Why, why, why do you refuse to recognize you have problems and deal with them?' The answer is that people have forgotten how to relate or respond. In this day of mass communications and instant communications, there is no communication between people. Instead it's long-winded stories or hostile bits, or laughter. But nobody's really laughing. It's more an hysterical, joyless kind of sound. Translation: 'I am here and I don't know why.*
 
 **-John Cassavetes**
 
-<hr class="grey-line">
+- - -
 
 * *You must write every single day of your life... You must lurk in libraries and climb the stacks like ladders to sniff books like perfumes and wear books like hats upon your crazy heads... may you be in love every day for the next 20,000 days. And out of that love, remake a world.*
 * *But what would happen is that the world would catch up with and try to sicken you. If you did not write every day, the poisons would accumulate and you would begin to die, or act crazy, or both.
@@ -183,7 +198,7 @@ You must stay drunk on writing so reality cannot destroy you. For writing allows
 
 **-Ray Bradbury**
 
-<hr class="grey-line">
+- - -
 
 * *Drink from the well of yourself and begin again.*
 
@@ -195,19 +210,19 @@ You must stay drunk on writing so reality cannot destroy you. For writing allows
 
 **-Charles Bukowski**
 
-<hr class="grey-line">
+- - -
 
 *The most difficult thing is the decision to act, the rest is merely tenacity. The fears are paper tigers. You can do anything you decide to do. You can act to change and control your life; and the procedure, the process is its own reward.*
 
 **-Amelia Earhart**
 
-<hr class="grey-line">
+- - -
 
 *And that's how we measure out our real respect for people – by the degree of feeling they can register, the voltage of life they can carry and tolerate – and enjoy. End of sermon. As Buddha says: live like a mighty river. And as the old Greeks said: live as though all your ancestors were living again through you.*
 
 **-Ted Hughes**
 
-<hr class="grey-line">
+- - -
 
 *You have to pick the places you don't walk away from.*
 
@@ -228,7 +243,7 @@ The fear is for what is still to be lost.*
 
 **-Joan Didion**
 
-<hr class="grey-line">
+- - -
 
 *What doesn't kill you, makes you stronger*
 
@@ -246,5 +261,3 @@ My formula for greatness in a human being is amor fati: that one wants nothing t
 *What is the history of every day in your case? Look at your habits that constitute it: are they the product of innumerable little cowardices and lazinesses or of your courage and inventive reason? However different these two cases are, people might very well praise you equally and you might actually profit them equally this way and that. But praise and profit and respectability may suffice those who merely wish to have a good conscience—but not you who try the heart and reins and make even conscience an object of science!*
 
 **-Friedrich Nietzsche**
-
-<hr class="grey-line">
