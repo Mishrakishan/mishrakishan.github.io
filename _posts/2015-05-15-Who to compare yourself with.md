@@ -6,6 +6,7 @@ description:
 tags: writing criticism
 categories: 
 thumbnail: 
+featured: false
 ---
 
 People are unhappy at the bottom. They get sick there and remain unknown, and unloved. They waste their lives there. They die there. In consequence, the self-denigrating voices in the minds of people weave a devastating tale. Life is a zero-sum game. Worthlessness is the default condition.  It happens because, in our society, there are standards, hierarchies and a shallow structure of persona. There will always be people better than you – that is a cliche of nihilism. But taking yourself into irrelevance is not a profound critique of Being. It is a cheap trick of a rational mind. You have to understand that failure is the price we pay for those standards, and, because mediocrity has consequences both real and harsh, standards are necessary.

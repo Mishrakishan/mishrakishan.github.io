@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Stern-Gerlach Experiment'
+title: 'Stern-Gerlach Experiment in Qiskit'
 date: 2025-02-20 05:30
 description: "Measuring Spin (Stern-Gerlach Experiment) in Quantum Computer"
 tags: 

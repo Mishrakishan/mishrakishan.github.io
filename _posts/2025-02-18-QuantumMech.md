@@ -7,7 +7,7 @@ tags:
   - physics
 categories: 
   - education
-featured: true
+featured: false
 
 jupytext:
   text_representation:

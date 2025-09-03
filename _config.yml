@@ -133,10 +133,6 @@ external_sources:
         published_date: 2025-01-09
       - url: https://blog.avas.space/rto/
         published_date: 2025-01-08
-      - url: https://zypper.net/why-i-write/#fnref-1
-        published_date: 2025-01-07
-      - url: https://zypper.net/how-i-deal-with-information-overload/
-        published_date: 2025-01-06
       - url: https://maggieappleton.com/garden-history
         published_date: 2025-01-05
   - name: Kudos
@@ -454,8 +450,6 @@ popper:
 medium_zoom:
   version: "1.0.6"
   integrity: "sha256-EdPgYcPk/IIrw7FYeuJQexva49pVRZNmt3LculEr7zM="
-
-
 
 # Add the url, version and integrity hash of the libraries you use in your site.
 # The integrity hash is used to ensure that the library is not tampered with.
