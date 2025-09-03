@@ -8,7 +8,7 @@ nav_order: 3
 ---
 
 ### Theoretical Physics Lectures
-1. [David Tong Lectures](https://www.damtp.cam.ac.uk/user/tong)
+1. [David Tong Lectures](https://www.damtp.cam.ac.uk/user/tong/)
 2. [Steven Girvin, The QHE](http://arxiv.org/abs/cond-mat/9907002)
 3. [Mark Goerbig, QHE](http://arxiv.org/abs/0909.1998) 
 4. [Sebastian Huber, Topological Quantum Numbers in Condensed Matter Systems ](https://cmt-qo.phys.ethz.ch/education/spring-semester-2013--topological-quantum-numbers-in-condensed-m.html) 
