@@ -30,15 +30,15 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "post-",
+        },{id: "post-the-quantum-hall-effect",
       
-        title: "",
+        title: "The Quantum Hall Effect",
       
-      description: "",
+      description: "In the Dead of Night: The Quantum Hall Effect",
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/blog/2025/2025-08-20-QHE/";
+          window.location.href = "/blog/2025/QHE/";
         
       },
     },{id: "post-ideological-subversion",
