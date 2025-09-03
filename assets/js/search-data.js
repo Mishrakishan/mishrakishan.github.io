@@ -41,15 +41,15 @@ ninja.data = [{
           window.location.href = "/blog/2025/2025-08-20-QHE/";
         
       },
-    },{id: "post-ideological-subversion",
+    },{id: "post-",
       
-        title: "Ideological Subversion",
+        title: "",
       
       description: "",
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/blog/2025/Ideological-Subversion/";
+          window.location.href = "/blog/2025/2025-08-12-Ideological-Subversion/";
         
       },
     },{id: "post-secularism-on-trial-india-s-unequal-faith-and-one-sided-solidarity",
