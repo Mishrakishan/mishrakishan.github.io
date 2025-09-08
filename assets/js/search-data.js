@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "post-in-the-dead-of-night-the-quantum-hall-effect",
+        },{id: "post-the-measurement-problem-in-quantum-mechanics",
+      
+        title: "The Measurement Problem in Quantum Mechanics",
+      
+      description: "Philosophical aspect",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/QM-measurment-problem/";
+        
+      },
+    },{id: "post-in-the-dead-of-night-the-quantum-hall-effect",
       
         title: "In the Dead of Night-The Quantum Hall Effect",
       
