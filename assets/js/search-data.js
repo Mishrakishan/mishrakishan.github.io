@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "post-the-measurement-problem-in-quantum-mechanics",
+        },{id: "post-the-legacy-of-anderson-39-s-more-is-different",
+      
+        title: "The Legacy of Anderson&#39;s More is Different",
+      
+      description: "Philip W. Anderson, father of modern condensed matter physics",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/More-is-different/";
+        
+      },
+    },{id: "post-the-measurement-problem-in-quantum-mechanics",
       
         title: "The Measurement Problem in Quantum Mechanics",
       
