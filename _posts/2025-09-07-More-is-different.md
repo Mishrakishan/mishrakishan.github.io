@@ -24,18 +24,18 @@ In 1972, the legendary physicist **Philip W. Anderson**, Nobel Laureate in Physi
 
 ## The Reductionism Fallacy
 
-At the heart of classical reductionism lies the belief that all physical phenomena can ultimately be understood by breaking matter down into its most elementary constituents or by dissecting a system into its smallest constituents, one can eventually comprehend its full behavior. This philosophy has long underpinned the scientific method, guiding physicists to explore elementary particles, quarks, and ultimately the fundamental forces of nature. Atoms, protons, neutrons, electrons, and quarks—all obey the fundamental laws of Quantum Mechanics and Relativity. In principle, by knowing these laws, one should be able to reconstruct the universe’s complex behavior.
+At the heart of classical reductionism lies the belief that all physical phenomena can ultimately be understood by breaking matter down into its most elementary constituents, thus by dissecting a system into its smallest constituents, one can eventually comprehend its full behavior. This philosophy has long underpinned the scientific method, guiding physicists to explore elementary particles, quarks, and ultimately the _fundamental forces_ of nature. Atoms, protons, neutrons, electrons, and quarks—all obey the fundamental laws of Quantum Mechanics and Relativity. In principle, by knowing these laws, one should be able to reconstruct the universe’s complex behavior.
 
-However, Anderson draws a clear distinction between reductionism and constructivism. The latter refers to the ability to *reconstruct* complex phenomena by simply applying fundamental laws. This is not feasible due to the intractable nature of the many-body problem, which Nobel laureate Robert B. Laughlin later emphasized:  
+However, Anderson draws a clear distinction between reductionism and constructivism. The latter refers to the ability to *reconstruct* complex phenomena by simply applying fundamental laws. This is not feasible due to the intractable nature of the many-body problem, which Nobel laureate Robert B. Laughlin later emphasised:  
 > “For many particle systems, nothing can be calculated exactly from the microscopic equations.”
 
-The crux of the issue is **scale and complexity**. Macroscopic systems exhibit **broken symmetry**—phenomena not apparent from their microscopic laws. For example, while the fundamental equations governing atoms are symmetric, phase transitions lead to emergent structures like crystals or magnetic domains where this symmetry is broken. The macroscopic behavior cannot be deduced solely by scaling up the microscopic laws. Knowing the Schrödinger equation
+The crux of the issue is **scale and complexity**. Macroscopic systems exhibit **broken symmetry**—phenomena not apparent from their microscopic laws. For example, while the fundamental equations governing atoms are symmetric, phase transitions lead to emergent structures like crystals or magnetic domains where this symmetry is broken. Thus, the symmetry of a given phase of matter may be different from that of the underlying microscopic equations due to symmetry breaking across phase transitions. The macroscopic behavior cannot be deduced solely by scaling up the microscopic laws. Knowing the Schrödinger equation
 
 $$
 \hat{H}\Psi = E\Psi
 $$
 
-for individual particles doesn’t enable us to predict macroscopic phenomena like superconductivity, magnetism, or even why water is wet.
+for individual particles doesn’t enable us to predict macroscopic phenomena like superconductivity, magnetism. For example, we know that water is made of molecules, molecules are made of atoms, atoms are made of electrons, protons, neutrons, protons, neutrons are made of quarks, quarks are made of strings, and \$\dots\$ so on, but we are unable to answer why water is wet or why is it transparent. Thus, *reductionism does not imply constructivism*. So we do require a different big picture to study such physical properties.
 
 ### The Many-Body Problem and Emergence
 
@@ -76,7 +76,7 @@ One of the key insights Anderson presents is that large assemblies of elementary
 
 For instance, consider the quantum state of a macroscopic solid. While quantum mechanics predicts that the system exists in a superposition of all possible symmetry states (analogous to Schrödinger's cat), in practice, the system becomes "locked" in a particular symmetry state. The energy barrier to quantum tunneling between different symmetry states becomes so enormous that the time scale vastly exceeds the age of the universe.
 
-Mathematically, this can be expressed in terms of the tunneling amplitude \$A \sim e^{-S/\hbar}$\, where \$S\$ is the action associated with the transition between symmetry states. As \$S\$
+Mathematically, this can be expressed in terms of the tunneling amplitude \$A \sim e^{-S/\hbar}\$, where \$S\$ is the action associated with the transition between symmetry states. As \$S\$
 grows with the number of particles \$N\$, the amplitude becomes effectively zero:
   
 $$
