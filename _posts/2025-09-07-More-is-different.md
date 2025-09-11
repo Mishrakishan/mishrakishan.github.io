@@ -21,6 +21,9 @@ In 1972, the legendary physicist **Philip W. Anderson**, Nobel Laureate in Physi
   <em>Figure 1: Mediocrity is not a specter. It is a very real threat.</em>
 </p>
 
+*Figure 1: Mediocrity is not a specter. It is a very real threat.*
+
+![More is Different](assets/img/Screenshot 2025-09-12 at 5.12.45 AM.png)
 
 ## The Reductionism Fallacy
 
@@ -94,6 +97,8 @@ Anderson’s bold proclamation was that at every new level of complexity, **new 
 - Quantum tunneling between symmetry-broken states is so slow (longer than the universe’s age) that macroscopically, these states are effectively stable.
 
 Thus, macroscopic systems behave in ways that aren’t obvious extrapolations of microscopic laws. Instead, they exhibit **emergent phenomena** with their own governing principles.
+
+![More is Different](assets/img/Screenshot 2025-09-12 at 5.10.24 AM.png)
 
 ## Why Study Condensed Matter Physics?
 
