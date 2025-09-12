@@ -23,7 +23,14 @@ In 1972, the legendary physicist **Philip W. Anderson**, Nobel Laureate in Physi
 
 *Figure 1: Mediocrity is not a specter. It is a very real threat.*
 
-{% include figure.liquid loading="eager" path="assets/img/Screenshot 2025-09-12 at 5.12.45 AM.png" title="More is Different" class="img-fluid rounded z-depth-1" %}
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Screenshot 2025-09-12 at 5.12.45 AM.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    More is Different
+</div>
 
 ## The Reductionism Fallacy
 
@@ -98,7 +105,15 @@ Anderson’s bold proclamation was that at every new level of complexity, **new 
 
 Thus, macroscopic systems behave in ways that aren’t obvious extrapolations of microscopic laws. Instead, they exhibit **emergent phenomena** with their own governing principles.
 
-![More is Different](assets/img/Screenshot 2025-09-12 at 5.10.24 AM.png)
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/Screenshot 2025-09-12 at 5.10.24 AM.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Quantum Many body System
+</div>
+
 
 ## Why Study Condensed Matter Physics?
 
