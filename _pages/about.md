@@ -23,8 +23,10 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Hi, I'm Kishan, a theoretical physicist (in-progress) with a passion for ML/AI and an insatiable curiosity about almost everything —from science and philosophy to history, technology, literature and sometimes politics.
-I primarly work in theoretical condensed matter physics, particularly on topological Supercondcutors and Magnetic system: magnetic solitons such as skyrmions and domain walls. As a result, much of my research also revolves around spintronics and its applications. I have an active interest in Neuromorphic computing. Recently, I have been increasingly drawn to the foundations of topological quantum computing, especially through the use of non-Abelian anyons such as Majorana zero modes (MZMs), their braiding statistics and topological qubit architecture. 
+Hi there!
+I’m Kishan — a curious theoretical physics graduate with a soft spot for spin physics, a knack for physics-driven ML/AI, and an insatiable appetite for exploring science, philosophy, history, and literature. I love hiking!
+
+I primarily work in theoretical condensed matter physics, particularly on topological superconductors and magnetic systems: magnetic solitons such as skyrmions and domain walls. I’m especially passionate about the intersection of spin physics with emerging spintronic technologies such as quantum and neuromorphic computing. Lately, I have been increasingly drawn to the foundations of topological quantum computing, especially through the use of non-Abelian anyons such as Majorana zero modes (MZMs), their braiding statistics and topological qubit architecture.
 
 ### Research Interests
 
