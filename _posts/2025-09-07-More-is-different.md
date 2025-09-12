@@ -23,7 +23,7 @@ In 1972, the legendary physicist **Philip W. Anderson**, Nobel Laureate in Physi
 
 *Figure 1: Mediocrity is not a specter. It is a very real threat.*
 
-![More is Different](assets/img/Screenshot 2025-09-12 at 5.12.45 AM.png)
+{% include figure.liquid loading="eager" path="assets/img/Screenshot 2025-09-12 at 5.12.45 AM.png" title="More is Different" class="img-fluid rounded z-depth-1" %}
 
 ## The Reductionism Fallacy
 
