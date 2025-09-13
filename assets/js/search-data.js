@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "post-the-legacy-of-anderson-39-s-more-is-different",
+        },{id: "post-why-i-hate-formal-education",
+      
+        title: "Why I hate formal education?",
+      
+      description: "",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/blog/2025/formal-education/";
+        
+      },
+    },{id: "post-the-legacy-of-anderson-39-s-more-is-different",
       
         title: "The Legacy of Anderson&#39;s More is Different",
       
