@@ -25,7 +25,7 @@ In 1972, the legendary physicist **Philip W. Anderson**, Nobel Laureate in Physi
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Screenshot 2025-09-12 at 5.12.45 AM.png" title="More is Different" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Screenshot 2025-09-12 at 5.12.45 AM.png" title="More is Different" class="img-fluid rounded z-depth-1" style="width:600px;" %}
     </div>
 </div>
 <div class="caption">
@@ -107,7 +107,7 @@ Thus, macroscopic systems behave in ways that aren’t obvious extrapolations of
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/Screenshot 2025-09-12 at 5.10.24 AM.png" title="Quantum Many body System" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/Screenshot 2025-09-12 at 5.10.24 AM.png" title="Quantum Many body System" class="img-fluid rounded z-depth-1" style="width:600px;"  %}
     </div>
 </div>
 <div class="caption">
