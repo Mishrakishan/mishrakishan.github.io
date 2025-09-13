@@ -7,6 +7,7 @@ featured: true
 tags: writing physics
 description: Philip W. Anderson, father of modern condensed matter physics
 categories: physics condensed-matter quantum
+disqus_comments: true
 ---
 
 # "_More is Different_" by Philip W. Anderson
