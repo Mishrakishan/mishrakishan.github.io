@@ -7,10 +7,11 @@ featured: true
 tags: writing physics
 description: Philip W. Anderson, father of modern condensed matter physics
 categories: physics condensed-matter quantum
+comments: true
 disqus_comments: true
 ---
 
-# "_More is Different_" by Philip W. Anderson
+# More is Different by Philip W. Anderson
 
 In 1972, the legendary physicist **Philip W. Anderson**, Nobel Laureate in Physics (1977), published an influential article in Science [^1] titled "_More Is Different_", offering a profound critique of reductionism in physics and arguing for the fundamental significance of emergent phenomena in complex systems. Anderson, a towering figure in condensed matter physics and often regarded as the father of modern quantum condensed matter theory, challenged the assumption—held by many both inside and outside science—that understanding the universe at its most fundamental level reduces to knowing the basic laws of quantum mechanics and relativity i.e, _the reductionist paradigm_ that dominated much of 20th-century science.
 
