@@ -6,6 +6,8 @@ description:
 tags: writing life
 categories:
 featured: false
+comments: true
+disqus_comments: true
 ---
 
 This is an old piece 16 years-old-me wrote while interning at IIT Mandi.

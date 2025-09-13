@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: "<span style='color:#0086b3;'>Researcher · Theoretical Condensed Matter Physics · Spintronics (AI/ML)</span>"
+subtitle: "<span style='color:#707070;'>Researcher · Theoretical Condensed Matter Physics · Spintronics (AI/ML)</span>"
 
 profile:
   #image_alt: "Profile picture of Kishan Mishra"
@@ -21,6 +21,12 @@ blog: true # includes a list of news items
 blog_title: Writing # Title for the blog section
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
+
+latest_posts:
+  enabled: true
+  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
+  limit: 3 # leave blank to include all the blog posts
+---
 ---
 
 Hi there!

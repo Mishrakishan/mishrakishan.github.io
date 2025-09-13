@@ -7,6 +7,8 @@ tags: writing darwin sexualselection
 categories:
 canonical_url: https://mishrakishan.medium.com/darwin-day-ad5c5170b419
 featured: true
+comments: true
+disqus_comments: true
 ---
 
 >Sexual Selection ensures that dudes get fancy dresses.

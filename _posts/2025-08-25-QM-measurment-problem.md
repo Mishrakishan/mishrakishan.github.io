@@ -6,7 +6,9 @@ description: Philosophical aspect
 tags: writing physics
 categories:
 related_posts: true
-featured: true
+featured: false
+comments: true
+disqus_comments: true
 ---
 We generally say there are two worlds in physics: the classical or quantum world, or naively, the macroscopic or microscopic. The law of physics should be independent of the world we choose, but the methodology might differ, as in how we obtain an outcome in the classical or quantum world can have different approaches. While most of us are naturally familiar with classical methodology as it happens in day-to-day life, quantum is something we are always inquisitive about. There is so much said, done and dusted from many pioneers, yet there is no single answer to it.
 Quantum mechanics, the most successful theory we have for describing the microscopic world, is also the strangest in all its forms. Nowhere is this strangeness more evident than in the *measurement problem*. 

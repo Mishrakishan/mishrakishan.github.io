@@ -6,6 +6,8 @@ description:
 tags: writing solitude
 categories:
 canonical_url: https://instagram.com/p/BwOavbMnRzvqjm-mMLlo-_vrQVIyOzX7xqG7Tw0/
+comments: true
+disqus_comments: true
 ---
 
 The chair of solitude is so comforting until it’s an unexplainable, suffocating silence that rebels against the pursuit of “living a life in love’, recognition, pity, validation or attention other than any honest attempt to communicate an understanding.” If building castles in the air would be one thing, building haunted devil mansions would be another. And realisation hits hard, and you fall down into an inward spiral in the depths of nowhere.

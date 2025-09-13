@@ -21,6 +21,9 @@ kernelspec:
   display_name: Python 3
   language: python
   name: python3
+
+comments: true
+disqus_comments: true
 ---
 {% assign jupyter_path = "assets/jupyter/Stern_Gerlach.ipynb" | relative_url %}
 {% capture notebook_exists %}{% file_exists assets/jupyter/Stern_Gerlach.ipynb %}{% endcapture %}

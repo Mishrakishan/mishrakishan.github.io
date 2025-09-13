@@ -6,8 +6,10 @@ description:
 tags: writing philosophy satire
 categories:
 related_posts: true
-featured: true
+featured: false
 canonical_url: https://instagram.com/p/CIgCciDnDEkyPVexfT9Oqe5jzMv30wo256mnbo0/
+comments: true
+disqus_comments: true
 ---
 
 **“Smooth and smiling faces everywhere, but ruin in their eyes.”**

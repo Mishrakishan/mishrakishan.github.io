@@ -6,8 +6,10 @@ description: Yuri Bezmenov's philosophy on Ideological Subversion of Young Minds
 tags: writing philosophy history
 categories:
 related_posts: true
-featured: true
+featured: false
 canonical_url:
+comments: true
+disqus_comments: true
 ---
 
 Across much of the democratic world, nations grounded in constitutional values — freedom of speech, individual rights, secularism, and liberal democracy — are increasingly finding themselves embroiled in a silent yet devastating psychological conflict. This is not a war of guns and bombs, but one of ideas, identity, and infiltration — a conflict in which states appear at odds with their own cultural and civilizational foundations. This ideological warfare has left a profound psychological impact on societies, particularly in non-Islamic, liberal democracies. Over the past few decades, large sections of the population have been progressively disconnected from their roots — be it national culture, heritage, religious tradition, or shared moral frameworks. What we are witnessing is not merely cultural change, but cultural destabilization.

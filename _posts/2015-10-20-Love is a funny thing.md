@@ -8,6 +8,8 @@ canonical_url: https://www.instagram.com/p/B8i03oMHbXmnYHJ2eIyzGZyou4-MRJ7Rtmdjj
 categories:
 disqus_comments: flase
 related_posts: false
+comments: true
+disqus_comments: true
 ---
 
 Love is a funny thing. You expect it to be easy. You expect it to be a world of roses and laughs and perfect moments that you find only in movies. You expect your partner to always say the right thing and always know exactly how you feel, or exactly how to react to it. You expect them to calm you down when you’re yelling or to chase you when you run away. You expect so much that you feel entirely, and utterly defeated when something doesn’t exactly match up with all your plans. But that’s the thing, love isn’t a plan. Love is a feeling. It’s that feeling you get when you know you are going to see that person. You are always counting down the minutes, the hours, the days or even months until you will see them again because you love that feeling you have when you are with them.

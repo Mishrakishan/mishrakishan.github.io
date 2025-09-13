@@ -7,6 +7,8 @@ tags: writing TheLionKing
 categories:
 featured: true
 canonical_url: https://instagram.com/p/CIgCciDnDEkyPVexfT9Oqe5jzMv30wo256mnbo0/
+comments: true
+disqus_comments: true
 ---
 
 ![](https://miro.medium.com/v2/resize:fit:720/format:webp/0*WaiADQdep0uKneTU.jpeg)
